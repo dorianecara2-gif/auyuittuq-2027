@@ -10,8 +10,8 @@ Site de présentation de notre traversée à ski et pulka du col Akshayuk, dans 
 
 ```
 index.html      le site complet (textes FR/EN, styles et animations)
-img/            photos, dessins et écritures à la main
-  hw/           les mots écrits à la main sur les étiquettes en ruban
+*.jpg           les photos
+*.png           les dessins du carnet et les mots écrits à la main
 README.md       ce fichier
 ```
 
@@ -21,7 +21,7 @@ Le site est un simple fichier HTML, sans base de données ni étape de compilati
 
 1. Ouvrir le dépôt sur GitHub.
 2. Cliquer sur **Add file → Upload files**.
-3. Glisser le nouveau `index.html`, ainsi que les nouvelles images dans `img/` s'il y en a. Les fichiers qui portent le même nom sont remplacés.
+3. Glisser le nouveau `index.html`, ainsi que les nouvelles images s'il y en a. Les fichiers qui portent le même nom sont remplacés.
 4. Cliquer sur **Commit changes**.
 
 Vercel republie le site automatiquement, en moins d'une minute.
@@ -38,7 +38,7 @@ Penser à modifier les deux, puis cliquer sur **Commit changes**.
 
 ### Changer une photo
 
-Remplacer le fichier dans `img/` par une nouvelle image **portant exactement le même nom**, par exemple `team-victor.jpg`. Format recommandé : JPEG d'environ 1600 px de large au maximum, et moins de 400 Ko si possible.
+Remplacer le fichier par une nouvelle image **portant exactement le même nom**, par exemple `team-victor.jpg`. Format recommandé : JPEG d'environ 1600 px de large au maximum, et moins de 400 Ko si possible.
 
 ## Hébergement
 
