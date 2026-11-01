@@ -1,0 +1,1191 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Sept amis de Montréal et du Nunavut traversent le col Akshayuk à ski et pulka en avril 2027. Devenez partenaire.">
+<meta property="og:title" content="Expédition ᐊᐅᔪᐃᑦᑐᖅ · Auyuittuq 2027">
+<meta property="og:description" content="Traversée du col Akshayuk à ski et pulka, 100 km, avril 2027.">
+<meta property="og:image" content="sled-ice.jpg">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Expédition Auyuittuq</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..112,400..900&family=Big+Shoulders+Display:wght@700;800;900&family=Sedgwick+Ave&family=Courier+Prime:wght@400;700&family=Noto+Sans+Canadian+Aboriginal:wght@600;800&display=swap">
+<style>
+/* Layout: San Rita Wilderness structure in a poster palette (grainy bark brown, mint, cream); huge cream caps over darkened photos with a hand-drawn mint ski tracks, year-tab timeline on bark, giant mint wordmark footer. Light only, by choice. */
+:root{
+  --bark:#4B3027; --bark2:#351A11; --mint:#C9F2AE; --cream:#F2EBD8; --sand:#5C3D31; --paper:#F2EBD8; --paper2:#E4D9BD;
+  --ink:#F2EBD8; --muted:#CDBEA8; --line:rgba(242,235,216,.18);
+  --sans:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --display:"Big Shoulders Display","Archivo Narrow","Arial Narrow",sans-serif;
+  --mono:"Courier Prime","Courier New",Courier,monospace;
+  --syl:"Noto Sans Canadian Aboriginal","Euphemia UCAS","Euphemia",sans-serif;
+  --grain:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 .95  0 0 0 0 .85  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+em,i{font-style:normal}
+::selection{background:var(--mint);color:var(--bark2)}
+html{scrollbar-color:#8a7468 var(--bark);accent-color:var(--mint);caret-color:var(--mint)}
+body{background:var(--bark);color:var(--ink);font:400 16px/1.6 var(--mono);margin:0;-webkit-font-smoothing:antialiased}
+body.en .fr, body:not(.en) .en{display:none!important}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+section{padding-block:96px}
+h1,h2,h3{margin:0;font-family:var(--display);font-weight:800;text-wrap:balance}
+h2{font-size:clamp(42px,4.8vw,64px);line-height:.9;letter-spacing:0;text-transform:uppercase}
+h3{font-size:clamp(24px,2.1vw,30px);line-height:1;letter-spacing:.005em}
+p{margin:0;max-width:58ch}
+a{color:inherit;text-underline-offset:.2em;text-decoration-thickness:1.5px}
+:focus-visible{outline:2px solid var(--bark2);outline-offset:3px;border-radius:2px}
+canvas{display:block;width:100%;height:100%}
+.syl{font-family:var(--syl);font-weight:800}
+.dark{background:var(--bark2);color:var(--cream);position:relative;isolation:isolate}
+.dark::before{content:"";position:absolute;inset:0;background-image:var(--grain);opacity:.16;mix-blend-mode:soft-light;pointer-events:none;z-index:-1}
+.dark p{color:rgba(242,235,216,.84)}
+.dot{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:500;letter-spacing:.04em;text-transform:uppercase}
+.dot::before{content:"";flex:none;width:16px;height:16px;background:currentColor;-webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><filter id='r'><feTurbulence type='fractalNoise' baseFrequency='.09' numOctaves='2' seed='3'/><feDisplacementMap in='SourceGraphic' scale='.8'/></filter><path filter='url(%23r)' d='M20.6 35.2 L20.3 29.9 L19.9 25.0 L20.3 20.2 L20.0 14.7 L19.7 9.7 L19.4 4.8 M7.2 28.2 L11.3 25.8 L16.0 22.9 L20.2 19.8 L24.1 17.4 L28.7 14.8 L32.8 11.8 M7.3 11.7 L11.6 14.6 L15.8 17.0 L20.0 19.7 L24.5 23.0 L28.5 25.4 L32.7 28.3 M20.0 9.1 L18.5 7.9 L16.7 6.4 M20.0 9.1 L21.5 7.6 L22.9 6.2 M29.4 14.6 L30.2 12.5 L30.7 10.8 M29.4 14.6 L31.5 14.9 L33.7 15.3 M29.4 25.4 L31.6 24.8 L33.3 24.4 M29.4 25.4 L30.0 27.2 L30.5 29.1 M20.0 30.9 L21.5 32.5 L23.1 34.2 M20.0 30.9 L18.4 32.0 L17.2 33.3 M10.6 25.4 L10.0 27.5 L9.7 29.7 M10.6 25.4 L8.4 25.1 L6.5 24.6 M10.6 14.6 L8.4 15.5 L6.1 16.2 M10.6 14.6 L10.1 12.8 L9.2 10.9' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat;mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><filter id='r'><feTurbulence type='fractalNoise' baseFrequency='.09' numOctaves='2' seed='3'/><feDisplacementMap in='SourceGraphic' scale='.8'/></filter><path filter='url(%23r)' d='M20.6 35.2 L20.3 29.9 L19.9 25.0 L20.3 20.2 L20.0 14.7 L19.7 9.7 L19.4 4.8 M7.2 28.2 L11.3 25.8 L16.0 22.9 L20.2 19.8 L24.1 17.4 L28.7 14.8 L32.8 11.8 M7.3 11.7 L11.6 14.6 L15.8 17.0 L20.0 19.7 L24.5 23.0 L28.5 25.4 L32.7 28.3 M20.0 9.1 L18.5 7.9 L16.7 6.4 M20.0 9.1 L21.5 7.6 L22.9 6.2 M29.4 14.6 L30.2 12.5 L30.7 10.8 M29.4 14.6 L31.5 14.9 L33.7 15.3 M29.4 25.4 L31.6 24.8 L33.3 24.4 M29.4 25.4 L30.0 27.2 L30.5 29.1 M20.0 30.9 L21.5 32.5 L23.1 34.2 M20.0 30.9 L18.4 32.0 L17.2 33.3 M10.6 25.4 L10.0 27.5 L9.7 29.7 M10.6 25.4 L8.4 25.1 L6.5 24.6 M10.6 14.6 L8.4 15.5 L6.1 16.2 M10.6 14.6 L10.1 12.8 L9.2 10.9' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat;transform:rotate(8deg)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 24px;border-radius:20px;font:500 14px/1 var(--sans);text-decoration:none;border:1px solid var(--mint);background:var(--mint);color:var(--bark2);cursor:pointer;transition:background .2s,color .2s}
+.btn:hover{background:#DDF8C9}
+.btn.light,.btn.mint{background:var(--mint);border-color:var(--mint);color:var(--bark2)}
+.btn.light:hover,.btn.mint:hover{background:#DDF8C9}
+.btn.ghost{background:transparent;border-color:rgba(242,235,216,.75);color:var(--cream)}
+.btn.ghost:hover{background:rgba(255,255,255,.12)}
+
+/* header */
+
+.bar.dark{position:fixed;top:0;left:0;right:0;padding-top:env(safe-area-inset-top,0px);z-index:20;background:transparent;color:#fff;pointer-events:none}
+.bar.dark a,.bar.dark button{pointer-events:auto}
+.bar nav,.bar .brand{mix-blend-mode:difference}
+.bar.dark{transition:transform .45s cubic-bezier(.16,1,.3,1),opacity .3s}
+.bar.dark.away{transform:translateY(-110%);opacity:0}
+.bar.dark::before{content:none}
+.bar .lang{background:rgba(30,15,10,.25);backdrop-filter:blur(2px)}
+.bar .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;padding-block:12px}
+.bar nav{display:flex;gap:20px}
+.bar nav a{text-decoration:none;font-size:14px;font-weight:500}
+.bar nav a:hover{text-decoration:underline}
+.brand{font:700 15px/1 var(--sans);letter-spacing:.01em;text-transform:uppercase;white-space:nowrap;text-decoration:none}
+.brand .syl{font-size:14px;letter-spacing:0}
+.lang{justify-self:end;display:inline-flex;border:1px solid rgba(242,235,216,.3);border-radius:20px;overflow:hidden}
+.lang button{all:unset;cursor:pointer;font:500 12px/1 var(--sans);padding:8px 12px;color:rgba(242,235,216,.75)}
+.lang button[aria-pressed="true"]{background:var(--mint);color:var(--bark2)}
+.lang button:focus-visible{outline:2px solid var(--mint)}
+@media (max-width:860px){.bar nav{display:none}.bar .wrap{grid-template-columns:1fr auto}.brand{justify-self:start}}
+
+/* hero */
+.hero{position:relative;padding:0;color:var(--cream);background:var(--bark2);overflow:visible}
+.hero .bg{position:absolute;inset:0;overflow:hidden}
+.hero .par{position:absolute;left:0;right:0;top:-18%;height:136%;will-change:transform}
+.hero .bg img{width:100%;height:100%;object-fit:cover;object-position:50% 62%;display:block}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(rgba(53,26,17,.62),rgba(53,26,17,.38) 60%,rgba(53,26,17,.55))}
+.hero .inner{position:relative;padding-block:clamp(72px,11vw,150px) clamp(150px,18vw,230px)}
+.hero h1{font-size:clamp(50px,10.5vw,136px);line-height:.86;letter-spacing:0;text-transform:uppercase;font-weight:900}
+.hero h1 .l1{display:block;position:relative;width:max-content;max-width:100%}
+.hero h1 .l2{display:block;text-align:right;margin-top:.55em}
+.hero h1 .l2 .syl{display:block;color:var(--mint);text-transform:none;font-size:1.12em;line-height:1}
+.hero h1 .l2 small{display:block;font-size:.3em;line-height:1.2;font-weight:600;letter-spacing:0;text-transform:none;margin-top:.5em;opacity:.9}
+.loop{position:absolute;left:0;top:calc(100% - .06em);width:calc(100% - .55em);height:.24em;overflow:visible;pointer-events:none}
+.loop path{fill:none;stroke:var(--mint);stroke-linecap:round;stroke-linejoin:round}
+.loop .p1{stroke-width:2.8}
+.loop .p2{stroke-width:1.6;opacity:.7}
+.sled{position:absolute;right:-.42em;top:calc(100% - .26em);width:.95em;height:.48em;overflow:visible;pointer-events:none}
+.sled path{fill:none;stroke:var(--mint);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.hero h1 .l1{cursor:default}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:no-preference){
+  .loop path{stroke-dasharray:1 1;stroke-dashoffset:1}
+  .loop .p1{animation:draw 1.3s 3.15s cubic-bezier(.45,0,.2,1) forwards}
+  .loop .p1.b{animation-delay:3.25s}
+  .loop .p2{animation:draw 1s 3.4s linear forwards}
+  .sled{opacity:0;transform:translateX(-120%);animation:sledIn 1.3s 3.15s cubic-bezier(.45,0,.2,1) forwards}
+  @keyframes sledIn{0%{opacity:0;transform:translateX(-1200%)}12%{opacity:1}100%{opacity:1;transform:none}}
+  .loop.again .p1{animation:draw 1s 0s cubic-bezier(.45,0,.2,1) forwards}
+  .loop.again .p1.b{animation-delay:.08s}
+  .loop.again .p2{animation:draw .8s .2s linear forwards}
+}
+.hero .intro{margin:40px auto 0;text-align:center;color:var(--cream);font-size:clamp(15px,1.25vw,17px);font-weight:500;max-width:56ch}
+.hero .cta{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:28px}
+.collage{position:absolute;left:0;right:0;bottom:0;transform:translateY(42%);pointer-events:none}
+.collage .wrap{position:relative;height:clamp(180px,22vw,300px)}
+.collage figure{position:absolute;margin:0;overflow:hidden;box-shadow:0 18px 40px -18px rgba(0,0,0,.45);pointer-events:auto}
+.collage img{width:100%;height:100%;object-fit:cover;display:block}
+.c1{left:max(24px,4%);top:0;width:clamp(120px,17vw,230px);aspect-ratio:4/5}
+.c2{left:clamp(140px,24vw,330px);top:28%;width:clamp(100px,14vw,190px);aspect-ratio:1/1}
+.c3{right:max(24px,6%);top:12%;width:clamp(130px,19vw,260px);aspect-ratio:5/4;background:#000;padding:8px}
+.c3 img{outline:1px solid rgba(255,255,255,.08)}
+.after-collage{padding-top:clamp(150px,17vw,230px)}
+
+/* mission band */
+.mission{position:relative;padding:0;min-height:clamp(440px,62vw,720px);display:flex;align-items:center;color:var(--cream);overflow:hidden;background:#0d1a22}
+.mission img{position:absolute;left:0;top:-14%;width:100%;height:128%;will-change:transform;object-fit:cover;object-position:50% 60%}
+.mission::after{content:"";position:absolute;inset:0;background:rgba(8,14,18,.35)}
+.mission .dot{color:var(--mint)}
+.mission .wrap{position:relative;z-index:1;text-align:center;display:flex;flex-direction:column;align-items:center;gap:22px;padding-block:80px}
+.mission .say{font:800 clamp(34px,4.8vw,62px)/1.02 var(--display);letter-spacing:0;text-transform:uppercase;max-width:22ch;margin:0}
+.mission .say .w{opacity:.32;transition:opacity .35s ease-out}
+.mission .say .w.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.mission .say .w{opacity:1}}
+.mission .credit{font-size:12px;opacity:.75}
+
+/* origins split */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+.split>*{min-width:0}
+.big{font:900 clamp(52px,7.6vw,108px)/.86 var(--display);letter-spacing:0;text-transform:uppercase}
+.big .accent{background:var(--mint);color:var(--bark2);padding:0 .08em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.lede{font-size:clamp(16px,1.35vw,18px);line-height:1.55}
+.copy{display:flex;flex-direction:column;gap:18px}
+.copy p+p{color:var(--muted)}
+.spec{display:flex;flex-wrap:wrap;gap:14px 6px;margin-top:20px;align-items:center}
+.spec>span,.pill{position:relative;display:inline-flex;align-items:center;isolation:isolate;white-space:nowrap;color:#161412;
+  font:400 23px/1 "Sedgwick Ave","Marker Felt","Bradley Hand",cursive;letter-spacing:.01em;
+  height:40px;padding:4px 20px 0;margin-inline:-2px;text-shadow:0 0 .6px rgba(22,20,18,.55);
+  transform:translateY(var(--dy,0)) rotate(var(--r,0deg));transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+.spec>span:hover,tr:hover .pill{transform:translateY(calc(var(--dy,0px) - 2px)) rotate(calc(var(--r,0deg) * .3))}
+.spec .rim,.pill .rim{display:none}
+.spec .sheet,.pill .sheet{position:absolute;inset:0;z-index:-1;pointer-events:none;clip-path:var(--tear,none);
+  background-color:var(--tape,rgba(232,220,190,.9));
+  background-image:
+    linear-gradient(180deg,rgba(0,0,0,.10) 0,transparent 3px,transparent calc(100% - 3px),rgba(0,0,0,.12) 100%),
+    linear-gradient(var(--wa,72deg),transparent calc(var(--w1,30%) - 1px),rgba(255,255,255,.35) var(--w1,30%),rgba(0,0,0,.06) calc(var(--w1,30%) + 2px),transparent calc(var(--w1,30%) + 6px)),
+    linear-gradient(var(--wb,105deg),transparent calc(var(--w2,70%) - 1px),rgba(0,0,0,.07) var(--w2,70%),rgba(255,255,255,.28) calc(var(--w2,70%) + 2px),transparent calc(var(--w2,70%) + 5px)),
+    linear-gradient(90deg,rgba(255,255,255,.18),transparent 20%,transparent 80%,rgba(0,0,0,.05)),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='40'><filter id='c'><feTurbulence type='fractalNoise' baseFrequency='.012 .6' numOctaves='2' seed='3'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .22 0'/></filter><rect width='100%' height='100%' filter='url(%23c)'/></svg>"),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='1.3' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .3  0 0 0 0 .24  0 0 0 0 .15  0 0 0 .14 0'/></filter><rect width='100%' height='100%' filter='url(%23p)'/></svg>");
+  filter:drop-shadow(0 .5px .5px rgba(0,0,0,.35)) drop-shadow(0 2px 3px rgba(0,0,0,.18))}
+.spec>span::after,.spec>span::before,.spec .sheet::after{content:none}
+.spec b{font-weight:400;font-size:1.08em;margin-right:.15em}
+.pill{font-size:18px;height:30px;padding:2px 13px 0}
+.pill.need{--tape:rgba(236,226,198,.92);color:#9E2414}
+.pill.part{--tape:rgba(201,238,176,.9);color:#1F3317}
+.pill.ok{--tape:rgba(190,158,118,.92);color:#2A1A12}
+.pill.ok::after{content:"";position:absolute;left:8px;right:8px;top:52%;height:2.5px;background:currentColor;opacity:.8;transform:rotate(-4deg);border-radius:2px}
+.hw{display:inline-block;height:28px;background:currentColor;-webkit-mask:var(--src) center/contain no-repeat;mask:var(--src) center/contain no-repeat;vertical-align:middle}
+.pill .hw{height:20px}
+body:not(.en) .pill.ok::after{content:none}
+.spec>span .en{font-size:inherit}
+.spec .ch{display:inline-block;white-space:pre;opacity:var(--o,1);transform:translateY(var(--y,0)) rotate(var(--a,0deg))}
+@media (max-width:860px){.split{grid-template-columns:1fr;gap:28px}}
+
+/* values */
+.values{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:44px}
+.value{display:flex;flex-direction:column;gap:16px}
+.tile{aspect-ratio:1/1;max-width:100%;overflow:hidden}
+.value h3{display:flex;gap:12px;align-items:baseline}
+.value p{font-size:15px;line-height:1.6}
+@media (max-width:980px){.values{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.values{grid-template-columns:1fr}}
+
+/* Antho */
+.antho{padding-top:0}
+.antho-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:28px;align-items:end;margin-top:44px}
+.antho-grid>*{min-width:0}
+.antho-grid figure{margin:0;position:relative;overflow:hidden}
+.antho-grid img{display:block;width:100%;height:100%;object-fit:cover}
+.antho-grid .a1{aspect-ratio:3/2}
+.antho-grid .a2{aspect-ratio:4/5}
+.antho-grid figcaption{position:absolute;left:12px;bottom:12px;font-size:12px;font-weight:500;color:var(--cream);background:rgba(53,26,17,.62);padding:5px 10px;border-radius:20px}
+.quote{font:800 clamp(28px,2.9vw,40px)/1.08 var(--display);letter-spacing:0;max-width:30ch}
+@media (max-width:860px){.antho-grid{grid-template-columns:1fr}}
+
+/* timeline */
+.timeline h2{color:var(--cream)}
+.tabs{display:flex;flex-wrap:wrap;gap:22px;border:0;margin:0 0 40px;padding:0}
+.tabs button{all:unset;cursor:pointer;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:rgba(242,235,216,.6);padding-block:6px;text-underline-offset:5px}
+.tabs button[aria-selected="true"]{color:var(--mint);text-decoration:underline;text-decoration-thickness:1.5px}
+.tabs button:hover{color:var(--cream)}
+.tabs button:focus-visible{outline:2px solid var(--mint)}
+.panel{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.panel>*{min-width:0}
+.panel[hidden]{display:none}
+.panel .txt{display:flex;flex-direction:column;gap:18px}
+.panel .tile{aspect-ratio:5/4}
+.panel .now{color:var(--mint)}
+@media (max-width:860px){.panel{grid-template-columns:1fr;gap:28px}}
+
+/* big link list */
+.biglist{text-align:center}
+.snowfield{position:relative;overflow:hidden;padding-block:clamp(110px,14vw,180px);cursor:none}
+.snowfield .wrap{position:relative;z-index:1;pointer-events:none}
+.snowfield a,.snowfield button{pointer-events:auto}
+.snowfield a,.snowfield button{cursor:none}
+.chladni{position:absolute;inset:0;width:100%;height:100%;display:block}
+#origines{position:relative;overflow:hidden;cursor:none}
+#origines>.wrap{position:relative;z-index:1}
+#origines a,#origines button{cursor:none}
+@media (hover:none){#origines{cursor:auto}}
+.shuffle{all:unset;margin-top:34px;display:inline-flex;align-items:center;gap:10px;padding:11px 20px;border:1px solid rgba(242,235,216,.35);border-radius:999px;font:400 13px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--cream);background:rgba(53,26,17,.45);backdrop-filter:blur(3px)}
+.shuffle:hover{border-color:var(--mint);color:var(--mint)}
+.shuffle:focus-visible{outline:2px solid var(--mint);outline-offset:3px}
+.ring{position:fixed;left:0;top:0;width:34px;height:34px;margin:-17px 0 0 -17px;border:1.5px solid var(--cream);border-radius:50%;pointer-events:none;z-index:60;opacity:0;transition:opacity .25s,width .25s,height .25s,margin .25s;mix-blend-mode:difference}
+.ring.on{opacity:1}
+.ring.big{width:58px;height:58px;margin:-29px 0 0 -29px}
+@media (hover:none){.snowfield,.snowfield a,.snowfield button{cursor:auto}.ring{display:none}}
+.biglist ul{list-style:none;margin:28px auto 0;padding:0;max-width:620px}
+.biglist li+li{border-top:1px solid;border-image:repeating-linear-gradient(90deg,var(--line) 0 7px,transparent 7px 17px) 1}
+.biglist a{display:block;font:900 clamp(54px,7vw,92px)/1 var(--display);letter-spacing:0;text-transform:uppercase;text-decoration:none;padding-block:14px;transition:color .2s,letter-spacing .5s cubic-bezier(.16,1,.3,1)}
+.biglist a::after{content:"→";display:inline-block;margin-left:.2em;opacity:0;transform:translateX(-.4em);transition:opacity .3s,transform .5s cubic-bezier(.16,1,.3,1)}
+.biglist a:hover::after{opacity:1;transform:none}
+.biglist a:hover{letter-spacing:.02em}
+.biglist a:hover{text-decoration:underline;text-decoration-color:var(--mint);text-decoration-thickness:.14em;text-underline-offset:.1em}
+
+/* route */
+.route-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:56px;align-items:start;margin-top:44px}
+.route-grid>*{min-width:0}
+.mapbox{position:relative;aspect-ratio:440/380;max-width:100%;background:var(--sand)}
+.mapbox canvas,.mapbox svg{position:absolute;inset:0;width:100%;height:100%}
+.map text{font-family:var(--sans);font-size:11px;fill:var(--muted);letter-spacing:.02em}
+.map .place{font-weight:700;font-size:15px;fill:var(--ink)}
+.routeline{stroke:var(--cream);stroke-width:3;fill:none;stroke-dasharray:7 6;stroke-linecap:round}
+.legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:14px;font-size:13px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:18px;height:0;border-top:3px solid;border-image:repeating-linear-gradient(90deg,var(--cream) 0 7px,transparent 7px 17px) 1}
+.legend i.c{width:10px;height:10px;border:2.5px solid var(--ink);border-radius:50%;background:var(--sand)}
+.legend i.t{width:18px;border-top:1.5px solid;border-image:repeating-linear-gradient(90deg,#A8957C 0 7px,transparent 7px 17px) 1}
+.legend i.w{width:14px;height:10px;border:0;background:rgba(127,163,107,.7)}
+.legs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.legs li{display:grid;grid-template-columns:96px 1fr;gap:16px;padding-block:18px;border-top:1px solid;border-image:repeating-linear-gradient(90deg,var(--line) 0 7px,transparent 7px 17px) 1}
+.legs li:last-child{border-bottom:1px solid;border-image:repeating-linear-gradient(90deg,var(--line) 0 7px,transparent 7px 17px) 1}
+.legs .d{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding-top:4px}
+.legs p{font-size:15px;color:var(--muted);margin-top:6px}
+@media (max-width:860px){.route-grid{grid-template-columns:1fr}}
+
+/* team */
+.team-sec{background:var(--sand)}
+.team{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:44px}
+.group h3{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:12px;border-bottom:1.5px solid;border-image:repeating-linear-gradient(90deg,var(--ink) 0 7px,transparent 7px 17px) 1;font-size:clamp(30px,3vw,42px);text-transform:uppercase}
+.group h3 small{font-size:13px;font-weight:500;color:var(--muted)}
+.member{display:grid;grid-template-columns:52px 1fr;gap:16px;align-items:center;padding-block:14px;border-bottom:1px solid;border-image:repeating-linear-gradient(90deg,var(--line) 0 7px,transparent 7px 17px) 1}
+.avatar{width:52px;height:52px;border-radius:50%;overflow:hidden}
+.member b{display:block;font-weight:700}
+.member span{font-size:14px;color:var(--muted)}
+@media (max-width:760px){.team{grid-template-columns:1fr}}
+
+.legs h3 .km{font:700 13px var(--mono);color:var(--mint);margin-left:8px;white-space:nowrap}
+.field{margin:48px 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1.5px solid;border-image:repeating-linear-gradient(90deg,var(--ink) 0 7px,transparent 7px 17px) 1}
+.field div{padding:20px 20px 20px 0;border-bottom:1px solid;border-image:repeating-linear-gradient(90deg,var(--line) 0 7px,transparent 7px 17px) 1;min-width:0}
+.field dt{font:900 clamp(26px,2.6vw,36px)/1 var(--display);color:var(--mint);margin-bottom:8px;text-transform:uppercase}
+.field dd{margin:0;font-size:14px;color:var(--muted);max-width:34ch}
+@media (max-width:820px){.field{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.field{grid-template-columns:1fr}}
+
+/* crew */
+.crew{margin-top:48px}
+.crew .city{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:12px;border-bottom:1.5px solid;border-image:repeating-linear-gradient(90deg,var(--ink) 0 7px,transparent 7px 17px) 1;font-size:clamp(30px,3vw,42px);text-transform:uppercase;margin-top:48px}
+.crew .city:first-child{margin-top:0}
+.crew .city small{font:400 13px var(--mono);color:var(--muted);text-transform:none}
+.mates{list-style:none;margin:24px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.mate{display:flex;flex-direction:column;gap:8px;min-width:0}
+.por{aspect-ratio:4/5;overflow:hidden;margin-bottom:8px;background:var(--bark2)}
+.por img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .9s cubic-bezier(.16,1,.3,1),filter .5s}
+.mate:hover .por img{transform:scale(1.05)}
+.por canvas{width:100%;height:100%}
+.mate h3{font-size:clamp(28px,2.6vw,36px);text-transform:uppercase}
+.mate .job{font-size:13px;color:var(--muted)}
+.mate .role{font-size:14px;color:var(--mint)}
+.mate.todo h3,.mate.todo .role{opacity:.55}
+@media (max-width:900px){.mates{grid-template-columns:repeat(2,1fr)}}
+
+.ig{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--ink);text-decoration:none;width:max-content}
+.ig svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8}
+.ig:hover{color:var(--mint);text-decoration:underline}
+
+/* gear */
+.tablebox{overflow-x:auto;margin-top:40px;border-top:1.5px solid;border-image:repeating-linear-gradient(90deg,var(--ink) 0 7px,transparent 7px 17px) 1}
+table{border-collapse:separate;border-spacing:0;width:100%;min-width:640px;font-size:15px}
+th,td{text-align:left;padding:16px 14px 16px 0;border-bottom:1px solid;border-image:repeating-linear-gradient(90deg,var(--line) 0 7px,transparent 7px 17px) 1;vertical-align:top}
+th{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+td.ill{width:72px;padding-right:8px;vertical-align:middle}
+.gi{width:56px;height:56px;display:block;fill:none;stroke:var(--mint);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+.gi *{stroke-dasharray:1 1;stroke-dashoffset:0;transition:stroke-dashoffset 1.3s cubic-bezier(.65,0,.35,1) var(--d,0ms)}
+tr.rv .gi *{stroke-dashoffset:1}
+tr:hover .gi{transform:rotate(-4deg) scale(1.08);transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+@media (prefers-reduced-motion:reduce){.gi *{transition:none}}
+td.q{font-variant-numeric:tabular-nums;font-weight:700}
+td small{display:block;color:var(--muted);font-size:13px}
+.progress{display:flex;align-items:center;gap:14px;margin-top:22px;font-size:14px;color:var(--muted)}
+.track{flex:1;max-width:360px;height:8px;border-radius:6px;background:var(--sand);overflow:hidden}
+.track i{display:block;height:100%;width:29%;background:var(--mint)}
+
+/* tiers */
+.tiers{list-style:none;margin:44px 0 0;padding:0;border-top:1.5px solid;border-image:repeating-linear-gradient(90deg,var(--ink) 0 7px,transparent 7px 17px) 1}
+.tiers li{display:grid;grid-template-columns:1fr 1fr 1.6fr;gap:28px;padding-block:24px;border-bottom:1px solid;border-image:repeating-linear-gradient(90deg,var(--line) 0 7px,transparent 7px 17px) 1;align-items:baseline}
+.tiers li>*{min-width:0}
+.tiers .give{font-weight:700;font-size:17px}
+.tiers .get{color:var(--muted)}
+.tiers li.main h3::after{content:"";display:inline-block;width:.6em;height:.6em;background:var(--mint);-webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><filter id='r'><feTurbulence type='fractalNoise' baseFrequency='.09' numOctaves='2' seed='3'/><feDisplacementMap in='SourceGraphic' scale='.8'/></filter><path filter='url(%23r)' d='M20.6 35.2 L20.3 29.9 L19.9 25.0 L20.3 20.2 L20.0 14.7 L19.7 9.7 L19.4 4.8 M7.2 28.2 L11.3 25.8 L16.0 22.9 L20.2 19.8 L24.1 17.4 L28.7 14.8 L32.8 11.8 M7.3 11.7 L11.6 14.6 L15.8 17.0 L20.0 19.7 L24.5 23.0 L28.5 25.4 L32.7 28.3 M20.0 9.1 L18.5 7.9 L16.7 6.4 M20.0 9.1 L21.5 7.6 L22.9 6.2 M29.4 14.6 L30.2 12.5 L30.7 10.8 M29.4 14.6 L31.5 14.9 L33.7 15.3 M29.4 25.4 L31.6 24.8 L33.3 24.4 M29.4 25.4 L30.0 27.2 L30.5 29.1 M20.0 30.9 L21.5 32.5 L23.1 34.2 M20.0 30.9 L18.4 32.0 L17.2 33.3 M10.6 25.4 L10.0 27.5 L9.7 29.7 M10.6 25.4 L8.4 25.1 L6.5 24.6 M10.6 14.6 L8.4 15.5 L6.1 16.2 M10.6 14.6 L10.1 12.8 L9.2 10.9' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat;mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><filter id='r'><feTurbulence type='fractalNoise' baseFrequency='.09' numOctaves='2' seed='3'/><feDisplacementMap in='SourceGraphic' scale='.8'/></filter><path filter='url(%23r)' d='M20.6 35.2 L20.3 29.9 L19.9 25.0 L20.3 20.2 L20.0 14.7 L19.7 9.7 L19.4 4.8 M7.2 28.2 L11.3 25.8 L16.0 22.9 L20.2 19.8 L24.1 17.4 L28.7 14.8 L32.8 11.8 M7.3 11.7 L11.6 14.6 L15.8 17.0 L20.0 19.7 L24.5 23.0 L28.5 25.4 L32.7 28.3 M20.0 9.1 L18.5 7.9 L16.7 6.4 M20.0 9.1 L21.5 7.6 L22.9 6.2 M29.4 14.6 L30.2 12.5 L30.7 10.8 M29.4 14.6 L31.5 14.9 L33.7 15.3 M29.4 25.4 L31.6 24.8 L33.3 24.4 M29.4 25.4 L30.0 27.2 L30.5 29.1 M20.0 30.9 L21.5 32.5 L23.1 34.2 M20.0 30.9 L18.4 32.0 L17.2 33.3 M10.6 25.4 L10.0 27.5 L9.7 29.7 M10.6 25.4 L8.4 25.1 L6.5 24.6 M10.6 14.6 L8.4 15.5 L6.1 16.2 M10.6 14.6 L10.1 12.8 L9.2 10.9' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat;margin-left:.35em;vertical-align:middle}
+.promise{margin-top:24px;color:var(--muted)}
+@media (max-width:820px){.tiers li{grid-template-columns:1fr;gap:6px}}
+
+/* offer */
+.offer{list-style:none;margin:44px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.offer li{display:flex;flex-direction:column;gap:12px;min-width:0}
+.offer figure{margin:0 0 6px;aspect-ratio:4/5;overflow:hidden;background:var(--sand)}
+.offer img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.offer li:hover img{transform:scale(1.04)}
+.offer .when{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.offer p{font-size:14px}
+@media (max-width:1000px){.offer{grid-template-columns:1fr 1fr}}
+.ask{margin-top:44px;background:var(--mint);color:var(--bark2);padding:clamp(24px,3vw,40px);display:grid;grid-template-columns:auto 1fr auto;gap:12px 40px;align-items:center}
+.ask h3{font-size:clamp(30px,3vw,44px);text-transform:uppercase}
+.ask p{color:var(--bark2);font-size:16px}
+.ask .btn{background:var(--bark2);border-color:var(--bark2);color:var(--cream)}
+@media (max-width:860px){.ask{grid-template-columns:1fr}}
+@media (max-width:560px){.offer{grid-template-columns:1fr}.offer figure{aspect-ratio:3/2}}
+
+/* carnet */
+.carnet .lede{color:var(--cream)}
+.book{position:relative;display:grid;grid-template-columns:1fr 1fr;margin:48px auto 0;max-width:1000px;background:#FBF8F0;border-radius:18px;padding:clamp(14px,2.4vw,34px);box-shadow:0 30px 60px -28px rgba(0,0,0,.6),0 2px 0 #d9cfba;transform:rotate(-1.2deg);transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.book:hover{transform:rotate(0deg) scale(1.01)}
+.book::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:44px;margin-left:-22px;background:linear-gradient(90deg,transparent,rgba(60,40,20,.13) 45%,rgba(60,40,20,.2) 50%,rgba(60,40,20,.13) 55%,transparent);pointer-events:none}
+.book::before{content:"";position:absolute;inset:6px -6px -8px 6px;background:#E9E0CC;border-radius:18px;z-index:-1}
+.page{margin:0;min-width:0;aspect-ratio:795/1120;padding:3%}
+.page canvas{width:100%;height:100%;display:block}
+.carnet-cap{margin-top:28px;text-align:center;max-width:none;font-size:13px;opacity:.75}
+@media (max-width:640px){.book{grid-template-columns:1fr;transform:none}.book::after{display:none}}
+
+/* poisson blanc */
+.poisson{padding-top:96px}
+.pgrid{display:grid;grid-template-columns:1fr 1fr .9fr;grid-template-rows:auto auto;gap:16px;margin-top:44px}
+.pgrid figure{margin:0;overflow:hidden;background:var(--sand);min-width:0}
+.pgrid img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.pgrid figure:hover img{transform:scale(1.03)}
+.pg1{grid-column:1/3;aspect-ratio:16/9}
+.pg2{grid-column:3;grid-row:1/3}
+.pg3{aspect-ratio:4/3}
+.pg4{aspect-ratio:4/3}
+@media (max-width:760px){.pgrid{grid-template-columns:1fr 1fr}.pg1{grid-column:1/-1}.pg2{grid-column:1/-1;grid-row:auto;aspect-ratio:4/5}}
+
+/* footer */
+.replay{all:unset;cursor:pointer;font-size:13px;color:var(--mint);text-decoration:underline;text-underline-offset:.2em}
+.replay:focus-visible{outline:2px solid var(--mint)}
+.foot{padding-block:64px 0}
+.foot-top{display:grid;grid-template-columns:1.3fr 1fr;gap:48px}
+.foot-top>*{min-width:0}
+.foot .label{font-size:12px;font-weight:500;letter-spacing:.04em;text-transform:uppercase}
+.foot .col{display:flex;flex-direction:column;gap:14px}
+.mailrow{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch;margin-top:4px}
+.mailbox{flex:1 1 220px;max-width:340px;display:flex;align-items:center;padding:12px 16px;border:1px solid rgba(242,235,216,.3);background:var(--bark);color:var(--cream);font:500 15px var(--sans);user-select:all;word-break:break-all;border-radius:2px}
+.copied{font-size:13px;color:var(--mint);align-self:center}
+.foot .links{display:flex;flex-direction:column;gap:10px;align-items:flex-end;font-size:15px}
+.foot .links a{text-decoration:none}
+.foot .links a:hover{text-decoration:underline}
+.note{font-size:13px;opacity:.75}
+.wordmark{display:block;width:100%;margin-top:56px;line-height:.8;color:var(--mint);text-align:center;font-family:var(--syl);font-weight:800;white-space:nowrap;letter-spacing:-.01em;overflow:hidden}
+.foot-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid;border-image:repeating-linear-gradient(90deg,rgba(242,235,216,.2) 0 7px,transparent 7px 17px) 1;margin-top:28px;padding-block:18px;font-size:13px;color:rgba(242,235,216,.7)}
+@media (max-width:760px){.foot-top{grid-template-columns:1fr}.foot .links{align-items:flex-start}}
+
+/* entry animation: brown curtain counts the route, lifts, hero settles in */
+.curtain{position:fixed;inset:0;z-index:50;color:var(--cream);cursor:pointer;pointer-events:auto}
+.c-svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+#ctext{opacity:0;animation:cTxt .9s .1s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes cTxt{from{opacity:0}to{opacity:1}}
+.c-in{position:absolute;left:0;right:0;top:calc(50% + min(9vw,110px));display:flex;flex-direction:column;align-items:center;gap:18px;padding-inline:24px;text-align:center;animation:cOut .5s 1.45s ease forwards}
+.c-meta{display:flex;gap:28px;font:400 13px/1 var(--mono);letter-spacing:.04em;color:rgba(242,235,216,.8);font-variant-numeric:tabular-nums}
+.c-meta b{color:var(--cream);font-weight:700}
+.c-line{width:min(280px,70vw);height:2px;background:rgba(242,235,216,.2);overflow:hidden}
+.c-line i{display:block;height:100%;width:100%;background:var(--mint);transform-origin:left;transform:scaleX(0);animation:fill 1.35s .15s cubic-bezier(.65,0,.35,1) forwards}
+@keyframes fadeOut{to{opacity:0;visibility:hidden}}
+@keyframes cOut{to{opacity:0;transform:translateY(10px)}}
+@keyframes reveal{to{clip-path:inset(0 0 0 0)}}
+@keyframes fill{to{transform:scaleX(1)}}
+@keyframes settle{from{transform:scale(1.14)}to{transform:scale(1)}}
+@keyframes rise{from{opacity:0;transform:translateY(42px)}to{opacity:1;transform:none}}
+@keyframes drop{from{opacity:0;transform:translateY(70px) rotate(var(--r,0deg))}to{opacity:1;transform:none}}
+@keyframes down{from{transform:translateY(-100%)}to{transform:none}}
+@media (prefers-reduced-motion:no-preference){
+  html:not(.no-intro) .bar{animation:down .7s 2.75s cubic-bezier(.16,1,.3,1) both}
+  html:not(.no-intro) .hero .bg img{animation:settle 2.6s 2.2s cubic-bezier(.16,1,.3,1) both}
+  html:not(.no-intro) .hero h1 .l1{animation:rise .9s 2.85s cubic-bezier(.16,1,.3,1) both}
+  html:not(.no-intro) .hero h1 .l2{animation:rise .9s 3.00s cubic-bezier(.16,1,.3,1) both}
+  html:not(.no-intro) .hero .intro{animation:rise .9s 3.15s cubic-bezier(.16,1,.3,1) both}
+  html:not(.no-intro) .hero .cta{animation:rise .9s 3.25s cubic-bezier(.16,1,.3,1) both}
+  html:not(.no-intro) .collage .c1{--r:-4deg;animation:drop 1s 3.30s cubic-bezier(.16,1,.3,1) both}
+  html:not(.no-intro) .collage .c2{--r:5deg;animation:drop 1s 3.42s cubic-bezier(.16,1,.3,1) both}
+  html:not(.no-intro) .collage .c3{--r:-3deg;animation:drop 1s 3.54s cubic-bezier(.16,1,.3,1) both}
+  html.no-intro .loop .p1{animation-delay:.25s}
+  html.no-intro .loop .p1.b{animation-delay:.35s}
+  html.no-intro .loop .p2{animation-delay:.5s}
+  html.no-intro .sled{animation-delay:.25s}
+}
+html.no-intro .curtain{display:none}
+@media (prefers-reduced-motion:reduce){.curtain{display:none}}
+
+/* ---------- scroll animations ---------- */
+.ticker{background:var(--mint);color:var(--bark2);overflow:hidden;padding-block:16px;border-block:1.5px solid;border-image:repeating-linear-gradient(90deg,var(--bark2) 0 7px,transparent 7px 17px) 1}
+.tk-track{display:flex;width:max-content;animation:tick 38s linear infinite}
+.tk-track span{font:900 clamp(26px,3vw,40px)/1 var(--display);text-transform:uppercase;white-space:nowrap;padding-inline:28px;display:inline-flex;align-items:center;gap:56px}
+.tk-track span::after{content:"";flex:none;width:36px;height:36px;background:var(--bark2);-webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><filter id='r'><feTurbulence type='fractalNoise' baseFrequency='.09' numOctaves='2' seed='3'/><feDisplacementMap in='SourceGraphic' scale='.8'/></filter><path filter='url(%23r)' d='M20.6 35.2 L20.3 29.9 L19.9 25.0 L20.3 20.2 L20.0 14.7 L19.7 9.7 L19.4 4.8 M7.2 28.2 L11.3 25.8 L16.0 22.9 L20.2 19.8 L24.1 17.4 L28.7 14.8 L32.8 11.8 M7.3 11.7 L11.6 14.6 L15.8 17.0 L20.0 19.7 L24.5 23.0 L28.5 25.4 L32.7 28.3 M20.0 9.1 L18.5 7.9 L16.7 6.4 M20.0 9.1 L21.5 7.6 L22.9 6.2 M29.4 14.6 L30.2 12.5 L30.7 10.8 M29.4 14.6 L31.5 14.9 L33.7 15.3 M29.4 25.4 L31.6 24.8 L33.3 24.4 M29.4 25.4 L30.0 27.2 L30.5 29.1 M20.0 30.9 L21.5 32.5 L23.1 34.2 M20.0 30.9 L18.4 32.0 L17.2 33.3 M10.6 25.4 L10.0 27.5 L9.7 29.7 M10.6 25.4 L8.4 25.1 L6.5 24.6 M10.6 14.6 L8.4 15.5 L6.1 16.2 M10.6 14.6 L10.1 12.8 L9.2 10.9' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat;mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><filter id='r'><feTurbulence type='fractalNoise' baseFrequency='.09' numOctaves='2' seed='3'/><feDisplacementMap in='SourceGraphic' scale='.8'/></filter><path filter='url(%23r)' d='M20.6 35.2 L20.3 29.9 L19.9 25.0 L20.3 20.2 L20.0 14.7 L19.7 9.7 L19.4 4.8 M7.2 28.2 L11.3 25.8 L16.0 22.9 L20.2 19.8 L24.1 17.4 L28.7 14.8 L32.8 11.8 M7.3 11.7 L11.6 14.6 L15.8 17.0 L20.0 19.7 L24.5 23.0 L28.5 25.4 L32.7 28.3 M20.0 9.1 L18.5 7.9 L16.7 6.4 M20.0 9.1 L21.5 7.6 L22.9 6.2 M29.4 14.6 L30.2 12.5 L30.7 10.8 M29.4 14.6 L31.5 14.9 L33.7 15.3 M29.4 25.4 L31.6 24.8 L33.3 24.4 M29.4 25.4 L30.0 27.2 L30.5 29.1 M20.0 30.9 L21.5 32.5 L23.1 34.2 M20.0 30.9 L18.4 32.0 L17.2 33.3 M10.6 25.4 L10.0 27.5 L9.7 29.7 M10.6 25.4 L8.4 25.1 L6.5 24.6 M10.6 14.6 L8.4 15.5 L6.1 16.2 M10.6 14.6 L10.1 12.8 L9.2 10.9' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat;margin-left:56px;animation:spinf 9s linear infinite}
+@keyframes spinf{to{transform:rotate(360deg)}}
+.tk-track span:nth-child(5n+1){font-family:var(--syl);font-weight:800;text-transform:none}
+@keyframes tick{to{transform:translateX(-50%)}}
+.rmask{stroke-dasharray:1 1;stroke-dashoffset:0;transition:stroke-dashoffset 2.4s .35s cubic-bezier(.65,0,.35,1)}
+.mapbox.rv .rmask{stroke-dashoffset:-1}
+.mapbox g circle{transform-box:fill-box;transform-origin:center;transition:transform .5s cubic-bezier(.34,1.56,.64,1)}
+.mapbox g circle:nth-child(1){transition-delay:0.3s}.mapbox g circle:nth-child(2){transition-delay:0.6s}.mapbox g circle:nth-child(3){transition-delay:0.9s}.mapbox g circle:nth-child(4){transition-delay:1.2s}.mapbox g circle:nth-child(5){transition-delay:1.5s}.mapbox g circle:nth-child(6){transition-delay:1.8s}.mapbox g circle:nth-child(7){transition-delay:2.1s}.mapbox g circle:nth-child(8){transition-delay:2.4s}
+.mapbox.rv g circle{transform:scale(0)}
+.value .tile canvas,.offer figure img{transition:transform .7s cubic-bezier(.16,1,.3,1)}
+.value:hover .tile canvas{transform:scale(1.05) rotate(-1.5deg)}
+.track i{transform-origin:left;transition:transform 1.6s .3s cubic-bezier(.16,1,.3,1)}
+.progress.rv .track i{transform:scaleX(0)}
+@media (prefers-reduced-motion:no-preference){
+  .anim{transition:opacity .9s cubic-bezier(.16,1,.3,1) var(--d,0ms),transform 1.1s cubic-bezier(.16,1,.3,1) var(--d,0ms),clip-path 1.2s cubic-bezier(.77,0,.18,1) var(--d,0ms)}
+  .anim.rv{opacity:0;transform:translateY(38px)}
+  h2.anim.rv,.big.anim.rv{opacity:0;transform:translateY(.45em)}
+  .anim-img{opacity:1}
+  .anim-img img{clip-path:inset(0 0 0 0);transition:clip-path 1.25s cubic-bezier(.77,0,.18,1) var(--d,0ms),transform 1.7s cubic-bezier(.16,1,.3,1) var(--d,0ms)}
+  .anim-img.rv img{clip-path:inset(100% 0 0 0);transform:scale(1.18)}
+  .mapbox.anim.rv{opacity:0;transform:translateY(38px)}
+  .wordmark.anim.rv{transform:translateY(30%);opacity:0}
+}
+@media (prefers-reduced-motion:reduce){.tk-track{animation:none}.rmask{transition:none}}
+
+</style>
+
+</head>
+<body>
+<div class="curtain" id="curtain" aria-hidden="true">
+  <svg class="c-svg" id="csvg" preserveAspectRatio="none"><defs><mask id="cmask" maskUnits="userSpaceOnUse"><rect id="cmr" fill="#fff"/><text id="ctext" fill="#000" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans Canadian Aboriginal, Euphemia UCAS, sans-serif" font-weight="800">ᐊᐅᔪᐃᑦᑐᖅ</text></mask></defs><g id="czoom"><rect id="cbg" fill="#4B3027" mask="url(#cmask)"/></g></svg>
+  <div class="c-in">
+    <span class="c-line"><i></i></span>
+    <span class="c-meta"><span>QIKIQTARJUAQ</span><span><b id="cnum">0</b> KM</span><span>PANGNIRTUNG</span></span>
+  </div>
+</div>
+<script>try{if(location.hash!=='#intro'&&sessionStorage.getItem('intro'))document.documentElement.classList.add('no-intro');sessionStorage.setItem('intro','1')}catch(e){}</script>
+<header class="bar dark">
+  <div class="wrap">
+    <nav aria-label="Sections">
+      <a href="#origines"><span class="fr">Les origines</span><span class="en">Origins</span></a>
+      <a href="#trace"><span class="fr">La trace</span><span class="en">The route</span></a>
+      <a href="#equipe"><span class="fr">L'équipe</span><span class="en">Team</span></a>
+      <a href="#materiel"><span class="fr">Matériel</span><span class="en">Gear</span></a>
+    </nav>
+    <a class="brand" href="#top" aria-label="Auyuittuq"><span class="syl" lang="iu">ᐊᐅᔪᐃᑦᑐᖅ</span></a>
+    <div class="lang" role="group" aria-label="Langue / Language">
+      <button id="btn-fr" aria-pressed="true">FR</button>
+      <button id="btn-en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="bg"><div class="par"><img src="sled-ice.jpg" alt="Une pulka chargée, seule sur un lac gelé entre deux parois de granit" fetchpriority="high"></div></div>
+  <div class="wrap inner">
+    <h1>
+      <span class="l1"><span class="fr">L'expédition</span><span class="en">The expedition</span>
+        <svg class="loop" viewBox="0 0 640 40" preserveAspectRatio="none" aria-hidden="true"><path class="p1" pathLength="1" d="M0 14.3 L35 14.7 L75 12.9 L113 14.7 L144 14.4 L173 13.1 L212 14.9 L248 14.1 L279 12.8 L309 13.8 L338 15.0 L374 13.2 L400 13.1 L438 13.1 L462 15.1 L486 13.3 L516 15.1 L545 14.9 L578 13.6 L608 14.1 L638 13.2 L640 15.1"/><path class="p1 b" pathLength="1" d="M0 28.9 L33 26.9 L70 27.2 L98 27.4 L132 27.5 L156 28.2 L190 27.0 L225 28.8 L264 28.5 L293 28.0 L322 26.9 L346 29.1 L381 28.8 L405 28.1 L442 27.7 L466 27.9 L495 28.3 L525 27.1 L556 29.0 L594 27.6 L629 28.9 L640 28.7"/></svg><svg class="sled" viewBox="0 0 60 30" aria-hidden="true"><path pathLength="1" d="M3 20 Q4 27 12 27 L52 27 Q57 27 57 22 M8 20 Q9 9 20 9 L46 9 Q55 9 55 20 Z M18 9 L22 4 M40 9 L37 4 M3 20 L-14 18"/></svg>
+      </span>
+      <span class="l2"><span class="syl" lang="iu">ᐊᐅᔪᐃᑦᑐᖅ</span><small><span class="fr">Auyuittuq, « la terre qui ne fond jamais »</span><span class="en">Auyuittuq, "the land that never melts"</span></small></span>
+    </h1>
+    <p class="intro"><span class="fr">Derrière l'expédition, sept amis : quatre de Montréal, trois du Nunavut. En avril 2027, on traverse le col Akshayuk à ski, 100 km du nord au sud, chacun tirant sa pulka, en autonomie complète, entre −30 et −40 °C. On cherche des partenaires pour s'équiper.</span><span class="en">Behind the expedition are seven friends: four from Montréal, three from Nunavut. In April 2027 we ski Akshayuk Pass, 100 km north to south, each hauling a pulk, fully self-supported, in −30 to −40 °C. We're looking for partners to gear up.</span></p>
+    <div class="cta">
+      <a class="btn mint" href="#materiel"><span class="fr">Voir nos besoins</span><span class="en">See what we need</span></a>
+      <a class="btn ghost" href="#contact"><span class="fr">Devenir partenaire</span><span class="en">Become a partner</span></a>
+    </div>
+  </div>
+  <div class="collage" aria-hidden="false">
+    <div class="wrap">
+      <figure class="c1"><img src="camp-film.jpg" alt="Tente au pied d'une grande montagne rocheuse, sur pellicule" loading="lazy"></figure>
+      <figure class="c2"><img src="tentdoor.jpg" alt="Paroi de granit vue depuis l'ouverture d'une tente" loading="lazy"></figure>
+      <figure class="c3"><img src="stove.jpg" alt="Réchaud, casserole et chaussons en duvet sur la neige" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section id="origines" data-snow class="after-collage">
+  <canvas class="chladni" id="chladni2" aria-hidden="true"></canvas>
+  <div class="wrap split">
+    <h2 class="big"><span class="fr">Les origines de <span class="accent">la trace</span></span><span class="en">The origins of <span class="accent">the trail</span></span></h2>
+    <div class="copy">
+      <p class="lede"><span class="fr">Sept amis, de Montréal au Nunavut, toujours dehors : ultra-trail, ski, gravel, escalade. En avril 2027, on traverse ensemble le parc national Auyuittuq, du nord au sud, en passant le cercle arctique.</span><span class="en">Seven friends, from Montréal to Nunavut, always outdoors: ultra-trail, skiing, gravel, climbing. In April 2027 we cross Auyuittuq National Park together, north to south, over the Arctic Circle.</span></p>
+      <p><span class="fr">Une pulka, c'est un traîneau qu'on tire à la taille, en ski. Tente, nourriture, combustible, sacs de couchage : tout est dedans. Pendant huit jours, on est notre propre camp de base.</span><span class="en">A pulk is a sled you haul from a waist harness while skiing. Tent, food, fuel, sleeping bags: it's all in there. For eight days we are our own base camp.</span></p>
+      <p class="spec"><span><span class="fr"><span class="hw" role="img" aria-label="7 skieurs" style="--src:url(skieurs.png);aspect-ratio:488/120"></span></span><span class="en"><b>7</b> skiers</span></span><span><span class="fr"><span class="hw" role="img" aria-label="100 km à ski" style="--src:url(km.png);aspect-ratio:594/120"></span></span><span class="en"><b>100 km</b> on skis</span></span><span><span class="fr"><span class="hw" role="img" aria-label="8 jours" style="--src:url(jours.png);aspect-ratio:276/120"></span></span><span class="en"><b>8</b> days</span></span><span><span class="fr"><span class="hw" role="img" aria-label="−30 à −40 °C" style="--src:url(temp.png);aspect-ratio:502/120"></span></span><span class="en"><b>−30 to −40 °C</b> at night</span></span><span><span class="fr"><span class="hw" role="img" aria-label="40 kg par pulka" style="--src:url(kg.png);aspect-ratio:597/120"></span></span><span class="en"><b>40 kg</b> per pulk</span></span><span><span class="fr"><span class="hw" role="img" aria-label="Cercle arctique" style="--src:url(cercle.png);aspect-ratio:452/120"></span></span><span class="en">Arctic Circle</span></span></p>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="tk-track"><span>ᐊᐅᔪᐃᑦᑐᖅ</span><span>Qikiqtarjuaq → Pangnirtung</span><span>Avril 2027</span><span>7 skieurs · 7 pulkas</span><span>Montréal · Nunavut</span><span>ᐊᐅᔪᐃᑦᑐᖅ</span><span>Qikiqtarjuaq → Pangnirtung</span><span>Avril 2027</span><span>7 skieurs · 7 pulkas</span><span>Montréal · Nunavut</span></div></div>
+
+<section class="mission">
+  <img src="aurora.jpg" alt="Aurore boréale verte au-dessus des sommets du col Akshayuk" loading="lazy">
+  <div class="wrap">
+    <span class="dot"><span class="fr">Notre mission</span><span class="en">Our mission</span></span>
+    <p class="say" data-words><span class="fr">Traverser ensemble un territoire inuit exceptionnel, et partager cette histoire à Montréal comme à Iqaluit.</span><span class="en">Cross an extraordinary Inuit land together, and share the story in Montréal and Iqaluit alike.</span></p>
+    <span class="credit">Photo : Antho</span>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="fr">Notre façon d'avancer</span><span class="en">How we move forward</span></h2>
+    <div class="values">
+      <div class="value"><div class="tile" style="background:var(--paper2)"><canvas data-art="land" data-ink="#4B3027" data-seed="5" aria-hidden="true"></canvas></div><h3><span class="fr">Respecter la terre inuit</span><span class="en">Respect Inuit land</span></h3><p><span class="fr">Auyuittuq est sur les terres des Inuit. On y voyage avec respect, sans laisser de trace, en suivant les règles du parc et les conseils des gens de la région.</span><span class="en">Auyuittuq is on Inuit land. We travel there with respect, leave no trace, and follow the park's rules and the advice of people from the region.</span></p></div>
+      <div class="value"><div class="tile" style="background:var(--bark2)"><canvas data-art="duo" data-ink="#C9F2AE" data-seed="11" aria-hidden="true"></canvas></div><h3><span class="fr">Apprendre les uns des autres</span><span class="en">Learn from each other</span></h3><p><span class="fr">Sept parcours, sept façons de voir le froid, la neige et la route. Chacun apporte ce qu'il sait, et tout le monde repart avec plus.</span><span class="en">Seven backgrounds, seven ways of seeing cold, snow and the route. Everyone brings what they know, and everyone leaves with more.</span></p></div>
+      <div class="value"><div class="tile" style="background:var(--mint)"><canvas data-art="flatlay" data-ink="#351A11" data-seed="3" aria-hidden="true"></canvas></div><h3><span class="fr">Tout dans la pulka</span><span class="en">All in the pulk</span></h3><p><span class="fr">Aucun ravitaillement. Ce qu'on tire, c'est ce qu'on a. Chaque gramme est pensé.</span><span class="en">No resupply. What we haul is what we have. Every gram is planned.</span></p></div>
+      <div class="value"><div class="tile" style="background:var(--bark2)"><canvas data-art="tracks" data-ink="#F2EBD8" data-seed="9" aria-hidden="true"></canvas></div><h3><span class="fr">Partir à l'aventure</span><span class="en">Go for it</span></h3><p><span class="fr">Oser partir loin, en sécurité : premiers soins, suivi satellite, plan d'évacuation. Et toujours avoir du fun.</span><span class="en">Dare to go far, safely: first aid, satellite tracking, evacuation plan. And always have fun.</span></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="antho" id="terrain">
+  <div class="wrap">
+    <div class="split">
+      <h2><span class="fr">Antho a déjà fait une partie de la trace</span><span class="en">Antho has already done part of the route</span></h2>
+      <div class="copy">
+        <p class="lede"><span class="fr">Seul avec sa pulka, il a parcouru une partie de l'itinéraire. Il revient avec des repères, des leçons sur le matériel et ces images. On y retourne, à sept cette fois.</span><span class="en">Alone with his pulk, he covered part of the route. He came back with landmarks, gear lessons and these images. We're going back, seven of us this time.</span></p>
+        
+      </div>
+    </div>
+    <div class="antho-grid">
+      <figure class="a1"><img src="arctic-circle.jpg" alt="Antho à côté du panneau Cercle arctique, 66°33′N, devant les montagnes" loading="lazy"><figcaption>Photo : Antho</figcaption></figure>
+      <figure class="a2"><img src="pulka.jpg" alt="Antho tire sa pulka sur un lac gelé" loading="lazy" style="object-position:50% 40%"><figcaption>Photo : Antho</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="carnet dark" id="carnet">
+  <div class="wrap">
+    <div class="split">
+      <h2><span class="fr">Le carnet d'Antho</span><span class="en">Antho's sketchbook</span></h2>
+      <div class="copy">
+        <p class="lede"><span class="fr">Pendant son expédition, Antho dessinait ce qu'il voyait depuis le camp. Le mont Thor la première nuit, Summit Lake le deuxième jour. Les voici, trait par trait.</span><span class="en">During his trip, Antho sketched what he saw from camp. Mount Thor on the first night, Summit Lake on day two. Here they are, line by line.</span></p>
+        <p><button type="button" class="btn mint" id="redraw"><span class="fr">Redessiner</span><span class="en">Draw again</span></button></p>
+      </div>
+    </div>
+    <div class="book" id="book">
+      <figure class="page"><canvas data-sketch="carnet-thor.png" width="795" height="1120" role="img" aria-label="Croquis d'Antho : le mont Thor et une tente au premier plan, nuit 1"></canvas></figure>
+      <figure class="page"><canvas data-sketch="carnet-summit.png" width="820" height="1140" role="img" aria-label="Croquis d'Antho : Summit Lake et ses sommets, jour 2"></canvas></figure>
+    </div>
+    <p class="carnet-cap"><span class="fr">Dessins : Antho, col Akshayuk</span><span class="en">Drawings: Antho, Akshayuk Pass</span></p>
+  </div>
+</section>
+
+<section class="poisson" id="entrainement">
+  <div class="wrap">
+    <div class="split">
+      <h2><span class="fr">On s'entraîne déjà sur la neige</span><span class="en">Already training on snow</span></h2>
+      <div class="copy">
+        <p class="lede"><span class="fr">Avant le Nunavut, on se prépare sur les lacs gelés du Québec. Ici, une expédition en ski et pulka au réservoir du Poisson Blanc : camp sur la glace, nuits froides, et du matériel testé pour de vrai.</span><span class="en">Before Nunavut, we train on Québec's frozen lakes. Here, a ski and pulk trip on the Poisson Blanc reservoir: camp on the ice, cold nights, and gear tested for real.</span></p>
+        <p><span class="fr">Photos de Doriane, au Poisson Blanc.</span><span class="en">Photos by Doriane, at Poisson Blanc.</span></p>
+      </div>
+    </div>
+    <div class="pgrid">
+      <figure class="pg1"><img src="poisson-tent.jpg" alt="Au camp sur le lac gelé, un équipier monte sa tente au milieu des skis et des pulkas" loading="lazy" style="object-position:50% 72%"></figure>
+      <figure class="pg2"><img src="poisson-pov.jpg" alt="Vue depuis la pulka : la trace file sur le lac gelé vers les autres skieurs" loading="lazy" style="object-position:50% 60%"></figure>
+      <figure class="pg3"><img src="poisson-camp.jpg" alt="Deux tentes sur un lac enneigé au lever du jour" loading="lazy" style="object-position:50% 80%"></figure>
+      <figure class="pg4"><img src="poisson-trail.jpg" alt="Une skieuse tire sa pulka dans la brume du matin" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="timeline dark">
+  <div class="wrap">
+    <div class="tabs" role="tablist" aria-label="Étapes">
+      <button role="tab" id="t1" aria-controls="p1" aria-selected="true"><span class="fr">Automne 2026</span><span class="en">Fall 2026</span></button>
+      <button role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1"><span class="fr">Hiver 2027</span><span class="en">Winter 2027</span></button>
+      <button role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1"><span class="fr">Avril 2027</span><span class="en">April 2027</span></button>
+      <button role="tab" id="t4" aria-controls="p4" aria-selected="false" tabindex="-1"><span class="fr">Mai 2027</span><span class="en">May 2027</span></button>
+    </div>
+    <div class="panel" role="tabpanel" id="p1" aria-labelledby="t1">
+      <div class="txt"><span class="dot now"><span class="fr">En ce moment</span><span class="en">Right now</span></span><h2><span class="fr">On s'équipe et on cherche nos partenaires.</span><span class="en">Gearing up and finding our partners.</span></h2><p><span class="fr">Planification à sept, entre Montréal et Iqaluit : itinéraire, liste de matériel, dossier de commandite. C'est maintenant que votre aide compte.</span><span class="en">Planning as a team of seven, between Montréal and Iqaluit: route, gear list, sponsorship package. This is when your help counts.</span></p></div>
+      <div class="tile" style="background:var(--mint)"><canvas data-art="flatlay" data-ink="#351A11" data-seed="23" aria-hidden="true"></canvas></div>
+    </div>
+    <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
+      <div class="txt"><h2><span class="fr">Entraînement à Montréal et à Iqaluit.</span><span class="en">Training in Montréal and Iqaluit.</span></h2><p><span class="fr">Sorties pulka par grand froid, test de chaque pièce de matériel avant le départ.</span><span class="en">Pulk outings in deep cold, testing every piece of gear before we go.</span></p></div>
+      <div class="tile" style="background:var(--bark2)"><canvas data-art="tent" data-ink="#C9F2AE" data-seed="17" aria-hidden="true"></canvas></div>
+    </div>
+    <div class="panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
+      <div class="txt"><h2><span class="fr">La traversée.</span><span class="en">The crossing.</span></h2><p><span class="fr">8 jours, dont 5 à ski sur 100 km, de Qikiqtarjuaq à Pangnirtung par le col Akshayuk, avec suivi GPS en direct sur ce site.</span><span class="en">8 days, 5 of them skiing 100 km, from Qikiqtarjuaq to Pangnirtung through Akshayuk Pass, with live GPS tracking on this site.</span></p></div>
+      <div class="tile" style="background:var(--paper)"><canvas data-art="tracks" data-ink="#4B3027" data-seed="41" aria-hidden="true"></canvas></div>
+    </div>
+    <div class="panel" role="tabpanel" id="p4" aria-labelledby="t4" hidden>
+      <div class="txt"><h2><span class="fr">Le film et sa première.</span><span class="en">The film and its premiere.</span></h2><p><span class="fr">Montage du film, projection privée à Montréal avec questions-réponses et quelques bières, puis envoi aux festivals de films de montagne et d'aventure.</span><span class="en">We edit the film, hold a private screening in Montréal with a Q&amp;A and a few beers, then submit it to mountain and adventure film festivals.</span></p></div>
+      <div class="tile" style="background:var(--paper2)"><canvas data-art="aurora" data-ink="#4B3027" data-seed="13" aria-hidden="true"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<section id="trace">
+  <div class="wrap">
+    <div class="split">
+      <h2>Qikiqtarjuaq → Pangnirtung</h2>
+      <p class="lede"><span class="fr">Du nord au sud par le col Akshayuk, dans le parc national Auyuittuq. Une motoneige nous dépose à l'entrée du parc, puis 100 km à ski en tirant les pulkas, jusqu'à Overlord. Une autre motoneige nous ramène à Pangnirtung.</span><span class="en">North to south through Akshayuk Pass in Auyuittuq National Park. A snowmobile drops us at the park entrance, then 100 km on skis hauling pulks to Overlord. Another snowmobile takes us to Pangnirtung.</span></p>
+    </div>
+    <div class="route-grid">
+      <div>
+        <div class="mapbox">
+          <svg class="map" viewBox="0 0 440 380" role="img" aria-label="Tracé indicatif Qikiqtarjuaq – Pangnirtung">
+            <path d="M0 300 C40 296 70 318 110 326 C150 334 170 360 200 380 L0 380Z" fill="#7FA36B" fill-opacity=".55"/>
+            <path d="M118 324 C126 312 136 300 146 288" stroke="#7FA36B" stroke-opacity=".55" stroke-width="9" fill="none" stroke-linecap="round"/>
+            <path d="M300 0 C310 30 330 52 360 66 C392 80 410 96 440 104 L440 0Z" fill="#7FA36B" fill-opacity=".55"/>
+            <path d="M268 112 C285 100 300 90 318 78" stroke="#7FA36B" stroke-opacity=".55" stroke-width="9" fill="none" stroke-linecap="round"/>
+            <text x="16" y="364">CUMBERLAND SOUND</text>
+            <text x="356" y="28">DAVIS STRAIT</text>
+            <mask id="rmask" maskUnits="userSpaceOnUse" x="0" y="0" width="440" height="380"><path class="rmask" pathLength="1" d="M120 322 C132 304 140 296 148 286 C160 268 166 250 176 230 C188 206 196 186 208 166 C222 144 236 126 256 114 C280 98 300 84 336 58" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/></mask><path class="routeline" mask="url(#rmask)" d="M120 322 C132 304 140 296 148 286 C160 268 166 250 176 230 C188 206 196 186 208 166 C222 144 236 126 256 114 C280 98 300 84 336 58"/>
+            <g fill="#351A11" stroke="#C9F2AE" stroke-width="2.5"><circle cx="336" cy="58" r="7"/><circle cx="256" cy="114" r="5"/><circle cx="230" cy="139" r="4.5"/><circle cx="208" cy="166" r="4.5"/><circle cx="190" cy="200" r="4.5"/><circle cx="176" cy="230" r="4.5"/><circle cx="148" cy="286" r="5"/><circle cx="120" cy="322" r="7"/></g>
+            <text class="place" x="20" y="316">Pangnirtung</text>
+            <text x="64" y="290">Overlord</text>
+            <text x="186" y="234">Windy Lake · Thor</text>
+            <text x="200" y="204">Summit Lake</text>
+            <text x="218" y="170">Glacier Lake</text>
+            <text x="240" y="142">June Valley</text>
+            <text x="266" y="118">N. Pangnirtung</text>
+            <text class="place" x="270" y="44">Qikiqtarjuaq</text>
+          </svg>
+        </div>
+        <div class="legend"><span><i></i><span class="fr">Trace prévue</span><span class="en">Planned route</span></span><span><i class="c"></i><span class="fr">Camp / village</span><span class="en">Camp / village</span></span><span><i class="w"></i><span class="fr">Eau / glace de mer</span><span class="en">Water / sea ice</span></span></div>
+      </div>
+      <ol class="legs">
+        <li><div class="d"><span class="fr">Jour 1</span><span class="en">Day 1</span></div><div><h3><span class="fr">Iqaluit → Qikiqtarjuaq</span><span class="en">Iqaluit → Qikiqtarjuaq</span></h3><p><span class="fr">Vol vers Qikiqtarjuaq, préparation des pulkas, puis transfert en motoneige jusqu'à l'entrée du parc.</span><span class="en">Flight to Qikiqtarjuaq, pulk prep, then a snowmobile transfer to the park entrance.</span></p></div></li>
+        <li><div class="d"><span class="fr">Jour 2</span><span class="en">Day 2</span></div><div><h3>North Pangnirtung → June Valley <span class="km">27 km</span></h3><p><span class="fr">La plus longue journée, sur la glace du fjord.</span><span class="en">The longest day, on the fjord ice.</span></p></div></li>
+        <li><div class="d"><span class="fr">Jour 3</span><span class="en">Day 3</span></div><div><h3>June Valley → Glacier Lake <span class="km">16,5 km</span></h3><p><span class="fr">On remonte la vallée vers les glaciers.</span><span class="en">Up the valley towards the glaciers.</span></p></div></li>
+        <li><div class="d"><span class="fr">Jour 4</span><span class="en">Day 4</span></div><div><h3>Glacier Lake → Summit Lake <span class="km">20,5 km</span></h3><p><span class="fr">Le point haut du col, le plus exposé au vent.</span><span class="en">The high point of the pass, the most exposed to wind.</span></p></div></li>
+        <li><div class="d"><span class="fr">Jour 5</span><span class="en">Day 5</span></div><div><h3>Summit Lake → Windy Lake <span class="km">20 km</span></h3><p><span class="fr">On redescend vers le sud, entre les parois de granit.</span><span class="en">Heading south again, between granite walls.</span></p></div></li>
+        <li><div class="d"><span class="fr">Jour 6</span><span class="en">Day 6</span></div><div><h3>Windy Lake → Overlord <span class="km">16 km</span></h3><p><span class="fr">Au pied du mont Thor. La partie sud se fait souvent sur la glace vive, en crampons. Transfert en motoneige jusqu'à Pangnirtung.</span><span class="en">Below Mount Thor. The south part is often bare ice, done in crampons. Snowmobile transfer to Pangnirtung.</span></p></div></li>
+        <li><div class="d"><span class="fr">Jour 7</span><span class="en">Day 7</span></div><div><h3><span class="fr">Jour de réserve</span><span class="en">Spare day</span></h3><p><span class="fr">Une journée gardée pour attendre une fenêtre météo.</span><span class="en">A day kept aside to wait for a weather window.</span></p></div></li>
+        <li><div class="d"><span class="fr">Jour 8</span><span class="en">Day 8</span></div><div><h3><span class="fr">Pangnirtung → Iqaluit</span><span class="en">Pangnirtung → Iqaluit</span></h3><p><span class="fr">Vol retour.</span><span class="en">Flight back.</span></p></div></li>
+        </ol>
+    </div>
+    <dl class="field">
+      <div><dt>15 h</dt><dd><span class="fr">de jour en avril</span><span class="en">of daylight in April</span></dd></div>
+      <div><dt>−20 / −30 °C</dt><dd><span class="fr">le jour, −30 à −40 °C la nuit</span><span class="en">by day, −30 to −40 °C at night</span></dd></div>
+      <div><dt>5 000–6 000</dt><dd><span class="fr">kcal par jour et par personne</span><span class="en">kcal per day per person</span></dd></div>
+      <div><dt>0,3–0,4 L</dt><dd><span class="fr">de naphta par personne et par jour : toute l'eau vient de la neige fondue</span><span class="en">of white gas per person per day: all our water is melted snow</span></dd></div>
+      <div><dt><span class="fr">Refuges</span><span class="en">Shelters</span></dt><dd><span class="fr">Des refuges d'urgence jalonnent le col : on campe près d'eux en cas de blizzard</span><span class="en">Emergency shelters line the pass: we camp near them in case of blizzard</span></dd></div>
+      <div><dt><span class="fr">Ours polaires</span><span class="en">Polar bears</span></dt><dd><span class="fr">Possibles dans la section nord : protocole de sécurité et équipement adaptés</span><span class="en">Possible in the north section: safety protocol and suitable equipment</span></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="equipe" class="team-sec">
+  <div class="wrap">
+    <div class="split">
+      <h2><span class="fr">4 + 3 = une cordée</span><span class="en">4 + 3 = one crew</span></h2>
+      <p class="lede"><span class="fr">Sept personnes, des métiers différents, un même traîneau à tirer. Voici celles et ceux qui partent, les autres arrivent bientôt.</span><span class="en">Seven people, different trades, the same sled to haul. Here's who's going, the rest are coming soon.</span></p>
+    </div>
+    <div class="crew">
+      <h3 class="city">Montréal <small>45°30′N</small></h3>
+      <ul class="mates">
+        
+        <li class="mate"><div class="por"><img src="team-doriane.jpg" alt="Doriane en doudoune bleue sur un lac gelé" loading="lazy"></div><h3>Doriane</h3><p class="job"><span class="fr">Designer · ultra-traileuse et triathlète d'hiver</span><span class="en">Designer · ultra-trail runner and winter triathlete</span></p><p class="role"><span class="fr">Vidéo et contenu pour les réseaux sociaux</span><span class="en">Video and social media content</span></p><a class="ig" href="https://www.instagram.com/la_dodo_touch/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>@la_dodo_touch</a></li>
+        <li class="mate"><div class="por"><img src="team-victor.jpg" alt="Portrait de Victor en forêt, casquette et doudoune" loading="lazy"></div><h3>Victor</h3><p class="job"><span class="fr">Ingénieur · traileur, cycliste de gravel et moniteur de ski</span><span class="en">Engineer · trail runner, gravel cyclist and ski instructor</span></p><p class="role"><span class="fr">Photo et logistique</span><span class="en">Photo and logistics</span></p><a class="ig" href="https://www.instagram.com/victorbellemin/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>@victorbellemin</a></li>
+        <li class="mate"><div class="por"><img src="team-ambroise.jpg" alt="Ambroise en tuque jaune devant une paroi rocheuse" loading="lazy"></div><h3>Ambroise</h3><p class="job"><span class="fr">Directeur stratégique · traileur, parapentiste et cycliste de gravel</span><span class="en">Strategy director · trail runner, paraglider and gravel cyclist</span></p><p class="role"><span class="fr">Partenariats avec les marques, premiers soins et météo</span><span class="en">Brand partnerships, first aid and weather</span></p><a class="ig" href="https://www.instagram.com/ambroiselallz/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>@ambroiselallz</a></li>
+      <li class="mate"><div class="por"><img src="team-etienne.jpg" alt="Etienne en randonnée dans une vallée de montagne" loading="lazy" style="object-position:45% 35%"></div><h3>Etienne</h3><p class="job"><span class="fr">Ingénieur · ultra-traileur et cycliste</span><span class="en">Engineer · ultra-trail runner and cyclist</span></p><p class="role"><span class="fr">Navigation et nourriture</span><span class="en">Navigation and food</span></p><a class="ig" href="https://www.instagram.com/etienneclemnt/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>@etienneclemnt</a></li>
+      </ul>
+      <h3 class="city">Nunavut <small>63°44′N</small></h3>
+      <ul class="mates">
+        <li class="mate"><div class="por"><img src="team-anthony.jpg" alt="Anthony au panneau du Cercle arctique" loading="lazy"></div><h3>Anthony</h3><p class="job"><span class="fr">Designer graphique · ultra-traileur et musher</span><span class="en">Graphic designer · ultra-trail runner and musher</span></p><p class="role"><span class="fr">Chef d'expédition, sécurité, photo, communications</span><span class="en">Expedition lead, safety, photo, communications</span></p></li><li class="mate"><div class="por" style="background:var(--paper)"><canvas data-art="face" data-ink="#351A11" data-seed="6" aria-hidden="true"></canvas></div><h3>Laurent</h3><p class="job"><span class="fr">Chasseur et pêcheur</span><span class="en">Hunter and fisherman</span></p><p class="role"><span class="fr">Surveillance des ours et connaissance du Nord</span><span class="en">Bear monitor and knowledge of the North</span></p><a class="ig" href="https://www.instagram.com/laurentbeausoleil/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>@laurentbeausoleil</a></li><li class="mate"><div class="por" style="background:var(--mint)"><canvas data-art="face" data-ink="#351A11" data-seed="7" aria-hidden="true"></canvas></div><h3>Tim</h3><p class="job"><span class="fr">Pharmacien · randonneur de l'extrême</span><span class="en">Pharmacist · extreme hiker</span></p><p class="role"><span class="fr">Premiers soins, pharmacie et repas lyophilisés</span><span class="en">First aid, pharmacy and freeze-dried meals</span></p><a class="ig" href="https://www.instagram.com/tim_logan_backpacking/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>@tim_logan_backpacking</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="materiel">
+  <div class="wrap">
+    <div class="split">
+      <h2><span class="fr">Le matériel qui nous garde au chaud</span><span class="en">The gear that keeps us warm</span></h2>
+      <p class="lede"><span class="fr">Chaque article compte entre −30 et −40 °C. Un prêt, un don ou un rabais nous aide tout autant.</span><span class="en">Every item matters at −30 to −40 °C. A loan, a donation or a discount helps just as much.</span></p>
+    </div>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="ink" x="-10%" y="-20%" width="120%" height="140%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.4" result="d"/><feGaussianBlur in="d" stdDeviation=".25"/></filter><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".04" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="1.6"/></filter></svg>
+    <div class="tablebox">
+      <table>
+        <thead><tr><th aria-hidden="true"></th><th><span class="fr">Article</span><span class="en">Item</span></th><th><span class="fr">Pour</span><span class="en">For</span></th><th><span class="fr">Pourquoi</span><span class="en">Why</span></th><th><span class="fr">Statut</span><span class="en">Status</span></th></tr></thead>
+        <tbody>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><path pathLength="1" d="M14 44 L22 6 Q23 3 25 6 L21 44Z"/><path pathLength="1" d="M26 44 L34 6 Q35 3 37 6 L33 44Z"/><path pathLength="1" d="M18 28h6M30 28h6"/></g></svg></td><td><b><span class="fr">Skis hors-piste à carres métalliques</span><span class="en">Metal-edged backcountry skis</span></b><small><span class="fr">avec fixations BC qui tiennent au grand froid</span><span class="en">with BC bindings that hold up in deep cold</span></small></td><td class="q"><span class="fr">Chacun</span><span class="en">Each</span></td><td><span class="fr">Avancer avec 40 kg derrière soi</span><span class="en">Moving with 40 kg behind you</span></td><td><span class="pill need"><span class="fr"><span class="hw" role="img" aria-label="Recherché" style="--src:url(need.png);aspect-ratio:285/96"></span></span><span class="en">Needed</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><path pathLength="1" d="M14 6h14v20l12 6q4 2 4 6v4H8v-6q0-4 3-6l3-2Z"/><path pathLength="1" d="M14 14h14M14 20h14M8 38h36"/></g></svg></td><td><b><span class="fr">Bottes de ski isolées</span><span class="en">Insulated ski boots</span></b></td><td class="q"><span class="fr">Chacun</span><span class="en">Each</span></td><td><span class="fr">Garder les pieds au chaud à −40 °C</span><span class="en">Keeping feet warm at −40 °C</span></td><td><span class="pill need"><span class="fr"><span class="hw" role="img" aria-label="Recherché" style="--src:url(need.png);aspect-ratio:285/96"></span></span><span class="en">Needed</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><path pathLength="1" d="M8 22h32q4 0 4 4v2H6v-2q0-4 2-4Z"/><path pathLength="1" d="M8 28l-2 8M15 28l-1 8M22 28v8M29 28l1 8M36 28l2 8M43 28l3 6"/><path pathLength="1" d="M14 22l4-8h12l4 8"/></g></svg></td><td><b><span class="fr">Crampons à glace</span><span class="en">Ice crampons</span></b></td><td class="q"><span class="fr">Chacun</span><span class="en">Each</span></td><td><span class="fr">La partie sud se fait sur la glace vive, sans skis</span><span class="en">The south part is bare ice, no skis</span></td><td><span class="pill need"><span class="fr"><span class="hw" role="img" aria-label="Recherché" style="--src:url(need.png);aspect-ratio:285/96"></span></span><span class="en">Needed</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><path pathLength="1" d="M4 30q2 8 10 8h28q4 0 4-4v-4Z"/><path pathLength="1" d="M8 30q0-10 12-10h16q10 0 10 10"/><path pathLength="1" d="M14 20l4-6M30 20l-2-6"/><path pathLength="1" d="M46 32l-40 8" stroke-dasharray="2 3"/></g></svg></td><td><b><span class="fr">Pulkas et harnais</span><span class="en">Pulks and harnesses</span></b><small><span class="fr">+ sac de transport 130 L</span><span class="en">+ 130 L duffel</span></small></td><td class="q"><span class="fr">Chacun</span><span class="en">Each</span></td><td><span class="fr">Tirer tout le camp</span><span class="en">Hauling the whole camp</span></td><td><span class="pill part"><span class="fr"><span class="hw" role="img" aria-label="En partie" style="--src:url(part.png);aspect-ratio:261/96"></span></span><span class="en">Partly</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><path pathLength="1" d="M18 4h12q10 0 10 12v24q0 4-4 4H12q-4 0-4-4V16Q8 4 18 4Z"/><path pathLength="1" d="M14 14q10 4 20 0M8 24h32M8 32h32M30 4v40"/></g></svg></td><td><b><span class="fr">Sacs de couchage −40 °C</span><span class="en">−40 °C sleeping bags</span></b><small><span class="fr">+ sursac pare-vapeur</span><span class="en">+ vapour barrier liner</span></small></td><td class="q"><span class="fr">Chacun</span><span class="en">Each</span></td><td><span class="fr">Dormir au chaud et au sec</span><span class="en">Sleeping warm and dry</span></td><td><span class="pill need"><span class="fr"><span class="hw" role="img" aria-label="Recherché" style="--src:url(need.png);aspect-ratio:285/96"></span></span><span class="en">Needed</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><rect pathLength="1" x="6" y="14" width="36" height="20" rx="3"/><path pathLength="1" d="M14 14v20M22 14v20M30 14v20M38 14v20"/><path pathLength="1" d="M6 38q18 6 36 0"/></g></svg></td><td><b><span class="fr">Matelas isolés R 7 à 9</span><span class="en">R 7–9 insulated pads</span></b><small><span class="fr">+ matelas de mousse</span><span class="en">+ foam pad</span></small></td><td class="q"><span class="fr">Chacun</span><span class="en">Each</span></td><td><span class="fr">Isoler du sol gelé</span><span class="en">Insulation from frozen ground</span></td><td><span class="pill need"><span class="fr"><span class="hw" role="img" aria-label="Recherché" style="--src:url(need.png);aspect-ratio:285/96"></span></span><span class="en">Needed</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><path pathLength="1" d="M18 6q6 4 12 0l10 6 6 16-6 2-2-8v22H10V22l-2 8-6-2 6-16Z"/><path pathLength="1" d="M24 10v34M10 26h28M10 34h28"/></g></svg></td><td><b><span class="fr">Doudounes et pantalons en duvet</span><span class="en">Down parkas and pants</span></b></td><td class="q"><span class="fr">Chacun</span><span class="en">Each</span></td><td><span class="fr">Matins, soirs et camp</span><span class="en">Mornings, evenings and camp</span></td><td><span class="pill need"><span class="fr"><span class="hw" role="img" aria-label="Recherché" style="--src:url(need.png);aspect-ratio:285/96"></span></span><span class="en">Needed</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><path pathLength="1" d="M4 40 L24 8 L44 40Z"/><path pathLength="1" d="M24 8 L18 40M24 8 L30 40"/><path pathLength="1" d="M20 40 L24 28 L28 40"/><path pathLength="1" d="M2 40h44"/><path pathLength="1" d="M4 40l-2 4M44 40l2 4"/></g></svg></td><td><b><span class="fr">Tente dôme de camp de base</span><span class="en">Basecamp dome tent</span></b><small><span class="fr">4 personnes et plus</span><span class="en">4+ people</span></small></td><td class="q"><span class="fr">Groupe</span><span class="en">Group</span></td><td><span class="fr">Se réchauffer à plusieurs, résister au blizzard</span><span class="en">Warming up together, standing up to blizzards</span></td><td><span class="pill need"><span class="fr"><span class="hw" role="img" aria-label="Recherché" style="--src:url(need.png);aspect-ratio:285/96"></span></span><span class="en">Needed</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><path pathLength="1" d="M12 12h24l-2 30H14Z"/><path pathLength="1" d="M10 12h28M16 6h16v6"/><path pathLength="1" d="M18 22q6 4 12 0M18 30h12"/></g></svg></td><td><b><span class="fr">Nourriture et collations riches en gras</span><span class="en">High-fat food and snacks</span></b><small><span class="fr">~1 kg de nourriture sèche par jour</span><span class="en">~1 kg dry food per day</span></small></td><td class="q"><span class="fr">Groupe</span><span class="en">Group</span></td><td><span class="fr">5 000 à 6 000 kcal par jour</span><span class="en">5,000–6,000 kcal per day</span></td><td><span class="pill need"><span class="fr"><span class="hw" role="img" aria-label="Recherché" style="--src:url(need.png);aspect-ratio:285/96"></span></span><span class="en">Needed</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><path pathLength="1" d="M10 22h28v6H10Z"/><path pathLength="1" d="M14 28l-4 12M34 28l4 12M24 28v12"/><path pathLength="1" d="M18 22q-2-6 2-10M24 22q-2-8 2-12M30 22q-2-6 2-10"/><path pathLength="1" d="M38 34h6v8h-6"/></g></svg></td><td><b><span class="fr">Réchauds à naphta</span><span class="en">White-gas stoves</span></b></td><td class="q"><span class="fr">Groupe</span><span class="en">Group</span></td><td><span class="fr">Fondre la neige pour toute notre eau</span><span class="en">Melting snow for all our water</span></td><td><span class="pill ok"><span class="fr"><span class="hw" role="img" aria-label="On l'a" style="--src:url(ok.png);aspect-ratio:379/96"></span></span><span class="en">Got it</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><rect pathLength="1" x="14" y="14" width="18" height="28" rx="3"/><path pathLength="1" d="M18 20h10v8H18Z"/><path pathLength="1" d="M28 14V4"/><path pathLength="1" d="M34 8q4 2 6 6M36 4q6 3 8 9"/><circle pathLength="1" cx="23" cy="36" r="2"/></g></svg></td><td><b><span class="fr">Communication satellite</span><span class="en">Satellite communication</span></b><small><span class="fr">balises et téléphone satellite</span><span class="en">beacons and satellite phone</span></small></td><td class="q"><span class="fr">Groupe</span><span class="en">Group</span></td><td><span class="fr">Sécurité et suivi en direct</span><span class="en">Safety and live tracking</span></td><td><span class="pill ok"><span class="fr"><span class="hw" role="img" aria-label="On l'a" style="--src:url(ok.png);aspect-ratio:379/96"></span></span><span class="en">Got it</span></span></td></tr>
+          <tr><td class="ill"><svg class="gi" viewBox="0 0 48 48" aria-hidden="true"><g filter="url(#rough)"><path pathLength="1" d="M16 4q8 0 8 10v20q0 10-8 10T8 34V14Q8 4 16 4Z"/><path pathLength="1" d="M34 4q8 0 8 10v20q0 10-8 10t-8-10V14q0-10 8-10Z"/><path pathLength="1" d="M8 20h16M26 20h16M10 30h12M28 30h12"/></g></svg></td><td><b><span class="fr">Raquettes</span><span class="en">Snowshoes</span></b></td><td class="q"><span class="fr">Groupe</span><span class="en">Group</span></td><td><span class="fr">Sections de neige profonde</span><span class="en">Deep snow sections</span></td><td><span class="pill ok"><span class="fr"><span class="hw" role="img" aria-label="On l'a" style="--src:url(ok.png);aspect-ratio:379/96"></span></span><span class="en">Got it</span></span></td></tr>
+          </tbody>
+      </table>
+    </div>
+    <div class="progress"><div class="track"><i></i></div><span class="fr">3 articles sur 12 trouvés, 1 en partie</span><span class="en">3 of 12 items secured, 1 partly</span></div>
+  </div>
+</section>
+
+<section id="partenaires" style="padding-top:0">
+  <div class="wrap">
+    <div class="split">
+      <h2><span class="fr">Ce qu'on vous offre en échange</span><span class="en">What we give back</span></h2>
+      <p class="lede"><span class="fr">Votre matériel sera filmé et photographié là où il compte : entre −30 et −40 °C, dans le col Akshayuk. Tout ce contenu est pour vous.</span><span class="en">Your gear gets filmed and photographed where it matters: at −30 to −40 °C, in Akshayuk Pass. All of that content is yours.</span></p>
+    </div>
+    <ol class="offer">
+      <li><figure><img src="stove.jpg" alt="Réchaud et matériel au camp sur la neige" loading="lazy"></figure><span class="when"><span class="fr">Pendant</span><span class="en">During</span></span><h3><span class="fr">Un vrai test terrain</span><span class="en">Real-world product testing</span></h3><p><span class="fr">8 jours entre −30 et −40 °C, 100 km à tirer les pulkas, 7 testeurs. Un rapport écrit pour chaque produit : ce qui a tenu, ce qui a cassé, ce qu'on changerait.</span><span class="en">8 days at −30 to −40 °C, 100 km hauling pulks, 7 testers. A written report for each product: what held up, what broke, what we'd change.</span></p></li>
+      <li><figure><img src="poisson-trail.jpg" alt="Une skieuse tire sa pulka dans la brume" loading="lazy"></figure><span class="when"><span class="fr">Pendant et après</span><span class="en">During and after</span></span><h3><span class="fr">Photos et vidéos pour votre marketing</span><span class="en">Photos and videos for your marketing</span></h3><p><span class="fr">Photos haute résolution et rushs vidéo, libres d'utilisation sur vos réseaux sociaux, votre site et vos campagnes.</span><span class="en">High-resolution photos and raw footage, free to use on your social media, website and campaigns.</span></p></li>
+      <li><figure><img src="aurora.jpg" alt="Aurore boréale au-dessus du col Akshayuk" loading="lazy"></figure><span class="when"><span class="fr">Au retour, à Montréal</span><span class="en">Back in Montréal</span></span><h3><span class="fr">Le film, projeté à Montréal</span><span class="en">The film, screened in Montréal</span></h3><p><span class="fr">Une projection privée pour la communauté plein air de Montréal, avec questions-réponses et quelques bières. Votre marque au générique et à l'écran, en action.</span><span class="en">A private screening for Montréal's outdoor community, with a Q&amp;A and a few beers. Your brand in the credits and on screen, in action.</span></p></li>
+      <li><figure><img src="tentdoor.jpg" alt="Paroi de granit vue depuis une tente" loading="lazy"></figure><span class="when"><span class="fr">Ensuite</span><span class="en">Then</span></span><h3><span class="fr">Le film en festivals</span><span class="en">The film at festivals</span></h3><p><span class="fr">Soumis aux festivals de films de montagne et d'aventure au Québec, au Canada et à l'international.</span><span class="en">Submitted to mountain and adventure film festivals in Québec, across Canada and internationally.</span></p></li>
+      </ol>
+    <div class="ask"><h3><span class="fr">Ce qu'on vous demande</span><span class="en">What we're asking for</span></h3><p><span class="fr">Du matériel spécialisé adapté à l'expédition. Et tout soutien qui aide le projet à avancer.</span><span class="en">Specialized gear suited to the expedition. And any support that helps the project move forward.</span></p><a class="btn" href="#contact"><span class="fr">Devenir partenaire</span><span class="en">Become a partner</span></a></div>
+
+    <h2 style="margin-top:96px"><span class="fr">Selon votre contribution</span><span class="en">By contribution</span></h2>
+    <ol class="tiers">
+      <li><h3><span class="fr">Ami de l'expédition</span><span class="en">Friend of the expedition</span></h3><p class="give"><span class="fr">Un rabais ou du petit équipement</span><span class="en">A discount or small gear</span></p><p class="get"><span class="fr">Votre nom sur ce site et au générique du film, une publication de remerciement et une invitation à la soirée de projection.</span><span class="en">Your name on this site and in the film credits, a thank-you post and an invite to the screening night.</span></p></li>
+      <li class="main"><h3><span class="fr">Partenaire matériel</span><span class="en">Gear partner</span></h3><p class="give"><span class="fr">Le prêt ou le don d'un article clé</span><span class="en">The loan or gift of a key item</span></p><p class="get"><span class="fr">Un lot de photos et de vidéos de votre produit sur le terrain pour vos réseaux, votre logo ici et au générique, et votre logo à l'écran lors de la soirée de projection.</span><span class="en">A set of field photos and videos of your product for your socials, your logo here and in the credits, and your logo on screen at the screening night.</span></p></li>
+      <li><h3><span class="fr">Partenaire principal</span><span class="en">Lead partner</span></h3><p class="give"><span class="fr">L'équipement d'une partie de l'équipe</span><span class="en">Outfitting part of the team</span></p><p class="get"><span class="fr">Une courte vidéo montée pour vos réseaux, votre logo sur les pulkas et les tentes (donc dans le film), et la coprésentation de la soirée de projection à Montréal.</span><span class="en">A short video edited for your socials, your logo on the pulks and tents (so in the film), and co-hosting the screening night in Montréal.</span></p></li>
+    </ol>
+    <p class="promise"><span class="fr">Pour tous nos partenaires : un bilan clair de l'utilisation du matériel à notre retour, et une visibilité au Québec comme au Nunavut.</span><span class="en">For every partner: a clear report on how the gear was used when we're back, and reach in both Québec and Nunavut.</span></p>
+  </div>
+</section>
+
+<section class="biglist snowfield" id="embarquer">
+  <canvas class="chladni" id="chladni" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <span class="dot"><span class="fr">Embarquer</span><span class="en">Get on board</span></span>
+    <ul>
+      <li><a href="#materiel"><span class="fr">Prêter du matériel</span><span class="en">Lend gear</span></a></li>
+      <li><a href="#contact"><span class="fr">Nous écrire</span><span class="en">Write to us</span></a></li>
+    </ul>
+    <button type="button" class="shuffle" id="shuffle"><span class="fr">Secouer la neige</span><span class="en">Shake the snow</span></button>
+  </div>
+</section>
+</main>
+
+<footer class="foot dark" id="contact">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="col">
+        <span class="label"><span class="fr">Expédition</span><span class="en">Expedition</span> <span class="syl" lang="iu">ᐊᐅᔪᐃᑦᑐᖅ</span></span>
+        <p><span class="fr">Sept amis de Montréal et du Nunavut, une pulka chacun, et les 100 km du col Akshayuk à traverser en avril 2027.</span><span class="en">Seven friends from Montréal and Nunavut, a pulk each, and the 100 km of Akshayuk Pass to cross in April 2027.</span></p>
+        <span class="label" style="margin-top:14px"><span class="fr">Prêt pour l'aventure ?</span><span class="en">Ready for adventure?</span></span>
+        <p><span class="fr">Écris-nous pour recevoir notre dossier de commandite ou discuter d'un prêt de matériel.</span><span class="en">Write to us for our sponsorship package or to talk about a gear loan.</span></p>
+        <div class="mailrow">
+          <span class="mailbox" id="email">dorianecara2@gmail.com</span>
+          <button class="btn mint" id="copy" type="button"><span class="fr">Copier</span><span class="en">Copy</span></button>
+          <span class="copied" id="copied" hidden><span class="fr">Copié</span><span class="en">Copied</span></span>
+        </div>
+      </div>
+      <nav class="links" aria-label="Pied de page">
+        <a href="#origines"><span class="fr">Les origines</span><span class="en">Origins</span></a>
+        <a href="#trace"><span class="fr">La trace</span><span class="en">The route</span></a>
+        <a href="#equipe"><span class="fr">L'équipe</span><span class="en">Team</span></a>
+        <a href="#materiel"><span class="fr">Matériel recherché</span><span class="en">Gear needed</span></a>
+        <a class="ig" href="https://www.instagram.com/la_dodo_touch/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>@la_dodo_touch</a>
+      </nav>
+    </div>
+    <span class="wordmark" id="wordmark" lang="iu" aria-label="Auyuittuq"><span id="wm-in">ᐊᐅᔪᐃᑦᑐᖅ</span></span>
+    <div class="foot-bottom"><span>© 2026 <span class="fr">Expédition</span><span class="en">Expedition</span> Auyuittuq</span><button type="button" class="replay" id="replay"><span class="fr">Revoir l'animation</span><span class="en">Replay intro</span></button><span>Montréal · Iqaluit · <span class="fr">Photos : Antho et Doriane</span><span class="en">Photos: Antho and Doriane</span></span></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* language */
+  var fr=document.getElementById('btn-fr'), en=document.getElementById('btn-en');
+  function set(l){
+    document.body.classList.toggle('en',l==='en');
+    document.documentElement.lang=l;
+    fr.setAttribute('aria-pressed',l==='fr'); en.setAttribute('aria-pressed',l==='en');
+    try{localStorage.setItem('lang',l)}catch(e){}
+  }
+  var saved=null; try{saved=localStorage.getItem('lang')}catch(e){}
+  set(saved==='en'?'en':'fr');
+  fr.onclick=function(){set('fr')}; en.onclick=function(){set('en')};
+
+  /* copy */
+  var copy=document.getElementById('copy'), ok=document.getElementById('copied'), mail=document.getElementById('email');
+  copy.onclick=function(){
+    function done(){ok.hidden=false;setTimeout(function(){ok.hidden=true},2000)}
+    function fallback(){var r=document.createRange();r.selectNodeContents(mail);var s=getSelection();s.removeAllRanges();s.addRange(r)}
+    try{navigator.clipboard.writeText(mail.textContent).then(done,fallback)}catch(e){fallback()}
+  };
+
+  function rng(s){s=(s*9301+49297)%2147483647||1;return function(){s=s*16807%2147483647;return (s-1)/2147483646}}
+  function setup(c){
+    var r=c.getBoundingClientRect(); if(r.width<2||r.height<2)return null;
+    var d=Math.min(window.devicePixelRatio||1,2), w=r.width, h=r.height;
+    c.width=Math.round(w*d);c.height=Math.round(h*d);var ctx=c.getContext('2d');ctx.setTransform(d,0,0,d,0,0);ctx.clearRect(0,0,w,h);
+    return {ctx:ctx,w:w,h:h};
+  }
+
+  /* ---------- topographic contours (marching squares) ---------- */
+  function topo(c){
+    var S=setup(c); if(!S)return; var ctx=S.ctx,w=S.w,h=S.h,R=rng(+c.dataset.seed||1);
+    var ph=[];for(var i=0;i<8;i++)ph.push(R()*6.28);
+    var sc=1/Math.max(260,Math.min(w,h)*.55);
+    function f(x,y){x*=sc;y*=sc;
+      return Math.sin(x*1.7+ph[0])*Math.cos(y*1.3+ph[1])+.55*Math.sin(x*3.1+y*1.9+ph[2])+.3*Math.cos(x*5.3-y*4.1+ph[3])+.18*Math.sin(y*7.7+ph[4]+x*2)}
+    var cell=7, nx=Math.ceil(w/cell)+1, ny=Math.ceil(h/cell)+1, v=new Float32Array(nx*ny);
+    for(var j=0;j<ny;j++)for(var i2=0;i2<nx;i2++)v[j*nx+i2]=f(i2*cell,j*cell);
+    ctx.strokeStyle=c.dataset.topo;ctx.lineWidth=1;
+    var A=+c.dataset.alpha||.2;
+    for(var lv=-1.8;lv<=1.8;lv+=.16){
+      var major=Math.abs((lv*100)%64)<1;
+      ctx.globalAlpha=A*(major?1.6:1);ctx.lineWidth=major?1.4:.9;
+      ctx.beginPath();
+      for(var y=0;y<ny-1;y++)for(var x=0;x<nx-1;x++){
+        var a=v[y*nx+x],b=v[y*nx+x+1],cc=v[(y+1)*nx+x+1],dd=v[(y+1)*nx+x];
+        var k=(a>lv?8:0)|(b>lv?4:0)|(cc>lv?2:0)|(dd>lv?1:0); if(k===0||k===15)continue;
+        var X=x*cell,Y=y*cell;
+        var T=[X+cell*(lv-a)/(b-a),Y], Rr=[X+cell,Y+cell*(lv-b)/(cc-b)], B=[X+cell*(lv-dd)/(cc-dd),Y+cell], L=[X,Y+cell*(lv-a)/(dd-a)];
+        var segs={1:[L,B],2:[B,Rr],3:[L,Rr],4:[T,Rr],5:[T,L,B,Rr],6:[T,B],7:[T,L],8:[T,L],9:[T,B],10:[T,Rr,L,B],11:[T,Rr],12:[L,Rr],13:[B,Rr],14:[L,B]}[k];
+        for(var s=0;s<segs.length;s+=2){ctx.moveTo(segs[s][0],segs[s][1]);ctx.lineTo(segs[s+1][0],segs[s+1][1])}
+      }
+      ctx.stroke();
+    }
+    ctx.globalAlpha=1;
+  }
+
+  /* ---------- pen-line illustration engine ---------- */
+  function Pen(ctx,R,color,lw){
+    var P={};
+    function wob(pts,amt){
+      var out=[];for(var i=0;i<pts.length-1;i++){
+        var a=pts[i],b=pts[i+1],dx=b[0]-a[0],dy=b[1]-a[1],L=Math.hypot(dx,dy),n=Math.max(1,Math.ceil(L/9));
+        for(var k=0;k<n;k++){var t=k/n;out.push([a[0]+dx*t+(R()-.5)*amt,a[1]+dy*t+(R()-.5)*amt])}
+      }
+      var e=pts[pts.length-1];out.push([e[0]+(R()-.5)*amt,e[1]+(R()-.5)*amt]);return out;
+    }
+    P.line=function(pts,closed){
+      if(closed)pts=pts.concat([pts[0]]);
+      ctx.strokeStyle=color;ctx.lineCap='round';ctx.lineJoin='round';
+      for(var pass=0;pass<2;pass++){
+        var q=wob(pts,lw*(pass?1.1:.6));ctx.globalAlpha=pass?.55:1;ctx.lineWidth=pass?lw*.6:lw;
+        ctx.beginPath();ctx.moveTo(q[0][0],q[0][1]);for(var i=1;i<q.length;i++)ctx.lineTo(q[i][0],q[i][1]);ctx.stroke();
+      }
+      ctx.globalAlpha=1;
+    };
+    P.seg=function(x1,y1,x2,y2){P.line([[x1,y1],[x2,y2]])};
+    P.circle=function(cx,cy,r,from,to){from=from||0;to=to==null?6.283:to;var pts=[],n=Math.max(10,Math.round(r*1.2));for(var i=0;i<=n;i++){var t=from+(to-from)*i/n;pts.push([cx+Math.cos(t)*r,cy+Math.sin(t)*r])}P.line(pts)};
+    P.rect=function(x,y,w,h){P.line([[x,y],[x+w,y],[x+w,y+h],[x,y+h]],true)};
+    P.dot=function(x,y,r){ctx.fillStyle=color;ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill()};
+    P.curve=function(fn,a,b,n){var pts=[];for(var i=0;i<=n;i++){var t=a+(b-a)*i/n;pts.push(fn(t))}P.line(pts)};
+    return P;
+  }
+
+  /* shared motifs, in scene units */
+  function mountains(P,R,x0,x1,base,hmax,peaks){
+    var pts=[[x0,base]],xs=[];for(var i=0;i<peaks;i++)xs.push(x0+(x1-x0)*(i+.5)/peaks+(R()-.5)*(x1-x0)/peaks*.5);
+    xs.forEach(function(px){var ph=hmax*(.55+R()*.45),wd=(x1-x0)/peaks*.55;pts.push([px-wd,base-ph*.25]);pts.push([px-wd*.25,base-ph*.8]);pts.push([px,base-ph]);pts.push([px+wd*.3,base-ph*.75]);pts.push([px+wd,base-ph*.3]);
+      // snow line hatch
+      P.line([[px-wd*.18,base-ph*.72],[px-wd*.05,base-ph*.62],[px+wd*.08,base-ph*.7],[px+wd*.2,base-ph*.6]]);
+      for(var k=0;k<3;k++){var sx=px+wd*(.15+k*.15),sy=base-ph*(.62-k*.12);P.seg(sx,sy,sx+wd*.12,sy+ph*.12)}
+    });
+    pts.push([x1,base]);P.line(pts);
+  }
+  function skier(P,x,y,s,flip){
+    var f=flip?-1:1;function X(v){return x+v*s*f}function Y(v){return y+v*s}
+    P.seg(X(-6),Y(0),X(9),Y(-.5));              // ski
+    P.line([[X(0),Y(-9)],[X(-2.5),Y(-4.5)],[X(-3),Y(-.3)]]); // back leg
+    P.line([[X(0),Y(-9)],[X(3),Y(-5)],[X(3.5),Y(-.4)]]);    // front leg
+    P.line([[X(0),Y(-9)],[X(3.2),Y(-17)]]);     // torso
+    P.circle(X(4.2),Y(-19.6),2.2*s);           // head
+    P.line([[X(1.2),Y(-12.5)],[X(-.8),Y(-17)],[X(1.6),Y(-18)],[X(3),Y(-15)]]); // pack
+    P.line([[X(2.6),Y(-14)],[X(5.5),Y(-10)],[X(8.5),Y(-.5)]]); // arm+pole
+    P.line([[X(2.4),Y(-14)],[X(0),Y(-10)],[X(-4),Y(-.5)]]);
+    P.line([[X(-.5),Y(-9)],[X(-11),Y(-3.5)]]);  // trace
+    P.line([[X(-11),Y(-1)],[X(-11),Y(-5)],[X(-23),Y(-5)],[X(-25),Y(-3)],[X(-24),Y(-.5)],[X(-11),Y(-1)]]); // pulka
+    P.seg(X(-22),Y(-3.2),X(-13),Y(-3.2));
+  }
+  function stars(P,R,x0,y0,x1,y1,n){for(var i=0;i<n;i++){var x=x0+R()*(x1-x0),y=y0+R()*(y1-y0),r=.6+R()*1.2;if(R()<.25){P.seg(x-r*2,y,x+r*2,y);P.seg(x,y-r*2,x,y+r*2)}else P.dot(x,y,r*.6)}}
+  function aurora(P,R,x0,x1,y,amp,n){for(var b=0;b<n;b++){var ph=R()*6,fq=1.5+R()*1.5,yy=y+b*amp*.5;P.curve(function(t){return [x0+(x1-x0)*t,yy+Math.sin(t*fq*3.14+ph)*amp]},0,1,40);
+    for(var k=0;k<14;k++){var t=R(),xx=x0+(x1-x0)*t,yb=yy+Math.sin(t*fq*3.14+ph)*amp;P.seg(xx,yb,xx+(R()-.5)*2,yb-amp*(.6+R()*1.2))}}}
+  function tentL(P,x,y,s){P.line([[x-20*s,y],[x-4*s,y-22*s],[x+22*s,y-16*s],[x+30*s,y]]);P.seg(x-4*s,y-22*s,x+4*s,y);P.line([[x-8*s,y],[x-3*s,y-10*s],[x+1*s,y]]);P.seg(x-20*s,y,x-28*s,y+3*s);P.seg(x+30*s,y,x+38*s,y+3*s);P.seg(x-30*s,y+1*s,x+44*s,y+1*s)}
+
+  var ART={
+    caravan:function(P,R,W,H){ // units 300 x 100
+      mountains(P,R,0,300,72,46,6);
+      P.line([[0,78],[90,76],[200,79],[300,77]]);
+      for(var i=0;i<7;i++){skier(P,40+i*34,86-i*.8,1.15)}
+      P.line([[0,90],[30,88]]);P.line([[0,93],[30,90.5]]);
+      stars(P,R,0,2,300,30,26);
+    },
+    panorama:function(P,R){ // 320 x 100
+      mountains(P,R,-10,330,70,52,7);
+      P.line([[0,74],[120,72],[220,75],[320,73]]);
+      for(var i=0;i<14;i++){var x=R()*320,y=78+R()*18;P.line([[x,y],[x+8+R()*14,y-1.5],[x+20+R()*10,y]])}
+      skier(P,250,90,.9);skier(P,276,89,.9);
+      P.circle(52,24,9);for(var k=0;k<8;k++){var a=k*.785;P.seg(52+Math.cos(a)*13,24+Math.sin(a)*13,52+Math.cos(a)*17,24+Math.sin(a)*17)}
+      P.line([[150,22],[154,19],[158,22]]);P.line([[162,26],[165,23.5],[168,26]]);
+    },
+    land:function(P,R){ // 100x100
+      mountains(P,R,8,92,58,40,2);
+      P.curve(function(t){return [50+Math.sin(t*5)*12*(1-t)+(t*30-15),58+t*34]},0,1,24);
+      P.curve(function(t){return [58+Math.sin(t*5)*12*(1-t)+(t*34-10),58+t*34]},0,1,24);
+      for(var i=0;i<9;i++){var x=10+R()*80,y=66+R()*24;P.line([[x,y],[x+4,y-1],[x+8,y]])}
+      // snow hare
+      P.circle(22,82,4.5);P.circle(26.5,77.5,2.6);P.line([[26,75.5],[25,69.5],[27,75]]);P.line([[27.5,75.2],[29,69.8],[28.6,75.4]]);P.seg(18,84,15.5,85);
+      stars(P,R,10,8,90,22,10);
+    },
+    duo:function(P,R){
+      P.line([[4,72],[40,70],[96,73]]);
+      tentL(P,70,72,.6);
+      skier(P,30,82,1.05);skier(P,60,90,1.05,false);
+      // speech-ish wind lines
+      P.curve(function(t){return [20+t*40,28+Math.sin(t*6)*2]},0,1,16);P.curve(function(t){return [30+t*35,36+Math.sin(t*6+1)*2]},0,1,16);
+      stars(P,R,6,6,94,20,9);
+    },
+    flatlay:function(P,R){
+      // pulka
+      P.line([[10,14],[54,14],[60,18],[60,30],[54,34],[10,34]],true);P.seg(14,20,54,20);P.seg(14,28,54,28);P.seg(26,14,26,34);P.seg(40,14,40,34);
+      P.seg(60,24,72,22);P.seg(60,26,72,28);
+      // skis
+      P.rect(70,8,5,58);P.rect(78,8,5,58);P.line([[70,8],[72.5,3],[75,8]]);P.line([[78,8],[80.5,3],[83,8]]);
+      P.seg(88,10,88,72);P.circle(88,66,3);P.seg(93,10,93,72);P.circle(93,66,3);
+      // stove + pot
+      P.circle(20,52,9);P.circle(20,52,4);P.seg(11,52,6,52);P.rect(34,44,16,14);P.seg(34,47,30,46);
+      // sleeping bag roll
+      P.rect(10,68,24,14);P.circle(34,75,7,-1.57,1.57);P.seg(16,68,16,82);P.seg(22,68,22,82);P.seg(28,68,28,82);
+      // map w/ contours
+      P.rect(42,64,22,24);P.curve(function(t){return [45+t*16,72+Math.sin(t*6)*2]},0,1,10);P.curve(function(t){return [45+t*16,78+Math.sin(t*6+1)*2]},0,1,10);P.circle(55,70,2.5);
+      // thermos
+      P.rect(4,90,6,0.1);P.rect(70,74,8,18);P.rect(71,71,6,3);
+      // mittens
+      P.line([[84,80],[84,92],[94,92],[94,84],[97,81],[94,80],[93,76],[86,76]],true);
+    },
+    tracks:function(P,R){
+      var vx=50,vy=50;
+      P.line([[0,52],[30,46],[46,50]]);P.line([[54,50],[72,44],[100,50]]);
+      for(var i=-2;i<=2;i++){if(i===0)continue;P.seg(vx+i*.6,vy+2,vx+i*14,100)}
+      for(var k=0;k<10;k++){var y=55+k*k*.5;P.seg(vx-(y-vy)*.15-3,y,vx-(y-vy)*.15+3,y)}
+      skier(P,50,58,.55,true);
+      aurora(P,R,6,94,22,5,2);
+      stars(P,R,6,4,94,40,12);
+      for(var j=0;j<6;j++){var x=8+R()*20,y=62+R()*30;P.line([[x,y],[x+5,y-1],[x+9,y]]);x=72+R()*20;P.line([[x,y],[x+5,y-1],[x+9,y]])}
+    },
+    tent:function(P,R){tentL(P,50,64,1.05);stars(P,R,6,6,94,36,14);P.circle(80,16,5,1.2,5.1);for(var i=0;i<8;i++){var x=6+R()*88,y=72+R()*20;P.line([[x,y],[x+5,y-1],[x+10,y]])}},
+    stove:function(P,R){
+      P.rect(36,52,28,22);P.seg(36,58,64,58);P.seg(64,56,74,52);
+      P.line([[38,74],[34,84]]);P.line([[62,74],[66,84]]);P.line([[50,74],[50,84]]);
+      for(var i=0;i<3;i++){var x=42+i*8;P.curve(function(t){return [x+Math.sin(t*9)*2,48-t*22]},0,1,10)}
+      P.line([[20,86],[80,86]]);
+      for(var k=0;k<6;k++){var x2=10+R()*80,y2=8+R()*20;P.seg(x2-2,y2,x2+2,y2);P.seg(x2,y2-2,x2,y2+2)}
+    },
+    aurora:function(P,R){aurora(P,R,4,96,30,7,3);mountains(P,R,0,100,78,22,3);P.line([[0,84],[100,83]]);stars(P,R,6,4,94,20,10);skier(P,70,92,.5)},
+    face:function(P,R){
+      P.circle(50,58,18);P.line([[30,52],[34,34],[50,26],[66,34],[70,52]]);P.seg(30,52,70,52);P.circle(50,22,5);
+      P.dot(43,60,2);P.dot(57,60,2);P.curve(function(t){return [43+t*14,67+Math.sin(t*3.14)*3]},0,1,8);
+      P.line([[22,100],[28,82],[50,78],[72,82],[78,100]]);
+    }
+  };
+  var SIZE={caravan:[300,100],panorama:[320,100]};
+
+  function art(c){
+    var S=setup(c); if(!S)return; var ctx=S.ctx,w=S.w,h=S.h,R=rng(+c.dataset.seed||1);
+    var kind=c.dataset.art, sz=SIZE[kind]||[100,100];
+    var k=Math.min(w/sz[0],h/sz[1]), ox=(w-sz[0]*k)/2, oy=(h-sz[1]*k)/2;
+    ctx.save();ctx.translate(ox,oy);ctx.scale(k,k);
+    var lw=Math.max(.9,1.7/k*Math.min(1.3,Math.max(.8,w/360)));
+    if(kind==='face')lw=2.4/k;
+    ART[kind](Pen(ctx,R,c.dataset.ink,lw),R,sz[0],sz[1]);
+    ctx.restore();
+  }
+
+  var topos=[].slice.call(document.querySelectorAll('canvas[data-topo]')), arts=[].slice.call(document.querySelectorAll('canvas[data-art]'));
+  function all(){topos.forEach(topo);arts.forEach(art)}
+  all();
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(all);
+  var t;window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(all,150)});
+  fr.addEventListener('click',all);en.addEventListener('click',all);
+
+  /* timeline tabs */
+  var tabs=[].slice.call(document.querySelectorAll('.tabs [role=tab]'));
+  function show(t,focus){
+    tabs.forEach(function(b){var on=b===t;b.setAttribute('aria-selected',on);b.tabIndex=on?0:-1;var p=document.getElementById(b.getAttribute('aria-controls'));p.hidden=!on;
+      if(on)[].forEach.call(p.querySelectorAll('canvas[data-art]'),art);});
+    if(focus)t.focus();
+  }
+  tabs.forEach(function(b,i){
+    b.addEventListener('click',function(){show(b)});
+    b.addEventListener('keydown',function(e){var k=e.key,n=null;if(k==='ArrowRight')n=tabs[(i+1)%tabs.length];if(k==='ArrowLeft')n=tabs[(i-1+tabs.length)%tabs.length];if(k==='Home')n=tabs[0];if(k==='End')n=tabs[tabs.length-1];if(n){e.preventDefault();show(n,true)}});
+  });
+
+  /* mission: words light up as the band scrolls into view */
+  var say=document.querySelector('[data-words]');
+  if(say){
+    [].forEach.call(say.children,function(sp){var w=sp.textContent.split(/(\s+)/);sp.textContent='';w.forEach(function(x){if(/^\s+$/.test(x)){sp.appendChild(document.createTextNode(x))}else if(x){var e=document.createElement('span');e.className='w';e.textContent=x;sp.appendChild(e)}})});
+    var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function lit(){
+      var r=say.getBoundingClientRect(),vh=window.innerHeight||800;
+      var prog=reduce?1:Math.max(0,Math.min(1,(vh*.85-r.top)/(vh*.55)));
+      [].forEach.call(say.children,function(sp){var ws=sp.querySelectorAll('.w');var n=Math.round(prog*ws.length);for(var i=0;i<ws.length;i++)ws[i].classList.toggle('on',i<n)});
+    }
+    lit();window.addEventListener('scroll',lit,{passive:true});window.addEventListener('resize',lit);fr.addEventListener('click',lit);en.addEventListener('click',lit);
+  }
+
+  /* footer wordmark: fill the width */
+  var wm=document.getElementById('wordmark');
+  function fit(){if(!wm)return;var inn=document.getElementById('wm-in');wm.style.fontSize='100px';var w=inn.getBoundingClientRect().width,a=wm.clientWidth;if(w>0)wm.style.fontSize=Math.floor(100*a/w*0.97)+'px'}
+  fit();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);window.addEventListener('resize',fit);
+
+  /* intro counter + skip */
+  var cur=document.getElementById('curtain'),cn=document.getElementById('cnum');
+  if(cur&&getComputedStyle(cur).display!=='none'){
+    var t0=performance.now()+150;
+    (function tick(t){var k=Math.max(0,Math.min(1,(t-t0)/1350));k=k<.5?4*k*k*k:1-Math.pow(-2*k+2,3)/2;cn.textContent=Math.round(k*100);if(k<1)requestAnimationFrame(tick)})(t0);
+    cur.addEventListener('click',function(){cur.style.display='none'});
+    var svg=document.getElementById('csvg'),tx=document.getElementById('ctext'),cz=document.getElementById('czoom'),ox=0,oy=0;
+    function lay(){var W=innerWidth,H=innerHeight,fs=Math.min(W*.15,190);svg.setAttribute('viewBox','0 0 '+W+' '+H);
+      ['cmr','cbg'].forEach(function(id){var r=document.getElementById(id);r.setAttribute('x',-W*2);r.setAttribute('y',-H*2);r.setAttribute('width',W*5);r.setAttribute('height',H*5)});
+      tx.setAttribute('x',W/2);tx.setAttribute('y',H/2-fs*.15);tx.setAttribute('font-size',fs);
+      /* find a point inside a thick stroke to zoom into */
+      try{var c=document.createElement('canvas');c.width=W;c.height=H;var g=c.getContext('2d');g.font='800 '+fs+'px "Noto Sans Canadian Aboriginal","Euphemia UCAS",sans-serif';g.textAlign='center';g.textBaseline='middle';g.fillText('ᐊᐅᔪᐃᑦᑐᖅ',W/2,H/2-fs*.15);
+        var d=g.getImageData(0,0,W,H).data,best=-1;function ink(x,y){return x>=0&&y>=0&&x<W&&y<H&&d[(y*W+x)*4+3]>128}
+        for(var y=Math.floor(H/2-fs*.6);y<H/2+fs*.4;y+=3)for(var x=Math.floor(W*.2);x<W*.8;x+=3){if(!ink(x,y))continue;var a=0,b=0,l=0,r=0;while(ink(x,y-a))a++;while(ink(x,y+b))b++;while(ink(x-l,y))l++;while(ink(x+r,y))r++;
+          var sc=Math.min(a,b,l,r)-Math.abs(x-W/2)*.004;if(sc>best){best=sc;ox=x;oy=y}}}catch(e){ox=W/2;oy=H/2}
+      if(!ox){ox=W/2;oy=H/2}}
+    lay();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(lay);
+    setTimeout(function(){lay();cz.style.transformOrigin=ox+'px '+oy+'px';cz.style.transformBox='view-box';
+      var an=cz.animate([{transform:'scale(1)'},{transform:'scale(90)'}],{duration:1300,easing:'cubic-bezier(.7,0,.84,0)',fill:'forwards'});
+      an.onfinish=function(){cur.style.display='none'};setTimeout(function(){cur.style.display='none'},1600)},1600);
+  }
+
+  /* redraw the loop on hover / tap */
+  var lp=document.querySelector('.loop'),l1=document.querySelector('.hero h1 .l1');
+  if(lp&&l1){var busy=false;function again(){if(busy)return;busy=true;lp.classList.remove('again');void lp.getBoundingClientRect();lp.classList.add('again');setTimeout(function(){busy=false},1300)}
+    l1.addEventListener('mouseenter',again);l1.addEventListener('click',again);}
+
+  var rp=document.getElementById('replay');
+  if(rp)rp.addEventListener('click',function(){try{sessionStorage.removeItem('intro')}catch(e){}location.hash='intro';location.reload()});
+
+  /* ---------- scroll reveals ---------- */
+  var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!RM&&'IntersectionObserver' in window){
+    var sel='section h2, .field div, .mate, .crew .city, .big, .lede, .copy>p:not(.lede), .spec, .value, .offer li, .tiers li, .member, .group h3, .legs li, tbody tr, .pgrid figure, .antho-grid figure, .offer figure, .mapbox, .legend, .promise, .biglist li, .panel .txt, .panel .tile, .wordmark, .progress, .tablebox thead';
+    var els=[].slice.call(document.querySelectorAll(sel)).filter(function(e){return !e.closest('.hero,.mission')});
+    var vh=window.innerHeight||800;
+    var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.remove('rv');io.unobserve(en.target)}})},{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+    els.forEach(function(e){
+      var isImg=e.tagName==='FIGURE'||e.classList.contains('mapbox');
+      e.classList.add(isImg?'anim-img':'anim'); if(e.classList.contains('mapbox')||e.classList.contains('progress'))e.classList.add('anim');
+      var sib=e.parentElement?[].filter.call(e.parentElement.children,function(c){return c.matches(sel)}):[];
+      var i=Math.max(0,sib.indexOf(e)); e.style.setProperty('--d',Math.min(i*90,540)+'ms');
+      if(e.getBoundingClientRect().top>vh*.92){e.classList.add('rv');io.observe(e)}
+    });
+  }
+  /* ---------- parallax ---------- */
+  var hbg=document.querySelector('.hero .par'),hero=document.querySelector('.hero'),mimg=document.querySelector('.mission img'),mis=document.querySelector('.mission'),tick=false;
+  function para(){tick=false;if(RM)return;var y=window.scrollY||0,h=window.innerHeight;
+    if(hbg&&hero){var hr=hero.getBoundingClientRect();if(hr.bottom>0){var max=hero.offsetHeight*.17;hbg.style.transform='translate3d(0,'+Math.min(max,Math.max(-max,-hr.top*.3))+'px,0)'
+      if(hr.bottom>-200){var sc=Math.max(0,-hr.top);[['.c1',.16],['.c2',.3],['.c3',.1]].forEach(function(c){var el=hero.querySelector(c[0]);if(el)el.style.translate='0 '+(-sc*c[1]).toFixed(1)+'px'})}}}
+    if(mimg&&mis){var r=mis.getBoundingClientRect();if(r.bottom>0&&r.top<h){var c=(r.top+r.height/2-h/2)/h;mimg.style.transform='translate3d(0,'+(c*-90)+'px,0)'}}}
+  window.addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(para)}},{passive:true});para();
+
+  /* ---------- Antho's sketches: drawn line by line ---------- */
+  var INK=[30,20,16];
+  function Sketch(cv){
+    var ctx=cv.getContext('2d'),W=cv.width,H=cv.height,img=new Image(),buckets=null,out=null,mask=null,raf=0,ready=false,self=this;
+    img.onload=function(){
+      var t=document.createElement('canvas');t.width=W;t.height=H;var tc=t.getContext('2d');tc.drawImage(img,0,0,W,H);mask=t;
+      try{var d=tc.getImageData(0,0,W,H).data;buckets=[];for(var i=0;i<256;i++)buckets.push([]);
+        for(var p=0,n=W*H;p<n;p++){if(d[p*4+3]>0)buckets[d[p*4]].push(p*4)}
+        out=ctx.createImageData(W,H);}catch(e){buckets=null}
+      ready=true;if(self.pending)self.play(self.pending.dur,self.pending.delay);
+    };
+    img.src=cv.getAttribute('data-sketch');
+    this.full=function(){if(!ready)return;cancelAnimationFrame(raf);ctx.clearRect(0,0,W,H);ctx.drawImage(mask,0,0);ctx.globalCompositeOperation='source-in';ctx.fillStyle='rgb('+INK+')';ctx.fillRect(0,0,W,H);ctx.globalCompositeOperation='source-over'};
+    this.play=function(dur,delay){
+      if(!ready){this.pending={dur:dur,delay:delay};return}
+      if(!buckets){this.full();return}
+      cancelAnimationFrame(raf);var o=out.data;for(var k=3;k<o.length;k+=4)o[k]=0;ctx.putImageData(out,0,0);
+      var done=-1,t0=performance.now()+(delay||0);
+      (function f(now){var k=Math.max(0,Math.min(1,(now-t0)/dur)),upto=Math.floor(k*255);
+        if(upto>done){for(var b=done+1;b<=upto;b++){var L=buckets[b];for(var j=0;j<L.length;j++){var q=L[j];o[q]=INK[0];o[q+1]=INK[1];o[q+2]=INK[2];o[q+3]=235}}done=upto;ctx.putImageData(out,0,0)}
+        if(k<1)raf=requestAnimationFrame(f)})(performance.now());
+    };
+  }
+  var sks=[].map.call(document.querySelectorAll('canvas[data-sketch]'),function(c){return new Sketch(c)});
+  function drawAll(){if(RM){sks.forEach(function(s){s.ready?s.full():setTimeout(function(){s.full()},400)});return}sks.forEach(function(s,i){s.play(5200,i*2600)})}
+  var book=document.getElementById('book');
+  if(book&&sks.length){
+    if('IntersectionObserver' in window){var bo=new IntersectionObserver(function(es){if(es[0].isIntersecting){drawAll();bo.disconnect()}},{threshold:.3});bo.observe(book)}else drawAll();
+    var rd=document.getElementById('redraw');if(rd)rd.addEventListener('click',drawAll);
+  }
+
+  /* torn-paper tags: px-based jagged edges with fibre rim, regenerated on resize */
+  var tags=[].slice.call(document.querySelectorAll('.spec>span, .pill'));
+  tags.forEach(function(el,n){
+    var rim=document.createElement('i'),sh=document.createElement('i');rim.className='rim';sh.className='sheet';el.insertBefore(sh,el.firstChild);el.insertBefore(rim,el.firstChild);
+    var Q=rng(n*7+3);el.style.setProperty('--r',((Q()-.5)*(el.classList.contains('pill')?4:7)).toFixed(1)+'deg');
+    if(!el.classList.contains('pill')){el.style.setProperty('--dy',((Q()-.5)*8).toFixed(1)+'px');
+      el.style.setProperty('--tape',['rgba(232,220,190,.9)','rgba(214,190,150,.92)','rgba(244,240,228,.88)','rgba(232,220,190,.9)','rgba(201,238,176,.88)','rgba(214,190,150,.92)'][n%6]);}
+    el.style.setProperty('--w1',(15+Q()*30).toFixed(0)+'%');el.style.setProperty('--w2',(55+Q()*35).toFixed(0)+'%');
+    el.style.setProperty('--wa',(60+Q()*30).toFixed(0)+'deg');el.style.setProperty('--wb',(95+Q()*30).toFixed(0)+'deg');
+  });
+  function tearEdge(R,len,depth){ /* multi-scale torn profile */
+    var pts=[],x=0,p1=R()*6,p2=R()*6,p3=R()*6;
+    while(x<len){var t=x/len,d=(Math.sin(t*5+p1)*.35+Math.sin(t*17+p2)*.25+Math.sin(t*43+p3)*.15+.75)*depth*.55+R()*depth*.55;
+      pts.push([x,d]);x+=1.5+R()*3.5}
+    pts.push([len,R()*depth]);return pts}
+  function tearAll(){tags.forEach(function(el,n){
+    var w=el.offsetWidth,h=el.offsetHeight;if(!w)return;
+    function build(seed){var R=rng(seed),P=[],x,y,z;
+      function zig(h,base,dir){var pts=[],y=0,lean=(R()-.5)*6;while(y<h){var t=y/h,d=Math.max(0,1.2+R()*3.2+lean*(t-.5)+(R()<.12?R()*4:0));pts.push([base+dir*d,y]);y+=.8+R()*2.2}pts.push([base+dir*(1+R()*2),h]);return pts}
+      for(x=0;x<=w;x+=10)P.push([x,(R()-.5)*1.1+.6]);
+      zig(h,w,-1).forEach(function(p){P.push(p)});
+      for(x=w;x>=0;x-=10)P.push([x,h-.6+(R()-.5)*1.1]);
+      zig(h,0,1).reverse().forEach(function(p){P.push(p)});
+      return 'polygon('+P.map(function(p){return p[0].toFixed(1)+'px '+p[1].toFixed(1)+'px'}).join(',')+')'}
+    var sh=el.querySelector('.sheet'),rim=el.querySelector('.rim');
+    sh.style.clipPath=build(n*13+5,0);
+    
+  })}
+  tearAll();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(tearAll);
+  window.addEventListener('resize',function(){clearTimeout(tearAll.t);tearAll.t=setTimeout(tearAll,150)});
+  fr.addEventListener('click',function(){setTimeout(tearAll,0)});en.addEventListener('click',function(){setTimeout(tearAll,0)});
+
+  /* hand-lettering: each character gets a slightly different baseline, angle and ink pressure */
+  [].forEach.call(document.querySelectorAll('.spec>span, .pill'),function(tag,n){
+    var R=rng(n*31+11);
+    (function walk(node){[].slice.call(node.childNodes).forEach(function(c){
+      if(c.nodeType===3){var f=document.createDocumentFragment();c.textContent.split('').forEach(function(ch){
+        if(ch===' '){f.appendChild(document.createTextNode(' '));return}
+        var e=document.createElement('span');e.className='ch';e.textContent=ch;
+        e.style.setProperty('--y',((R()-.5)*1).toFixed(1)+'px');e.style.setProperty('--a',((R()-.5)*2.5).toFixed(1)+'deg');e.style.setProperty('--o',(.86+R()*.14).toFixed(2));
+        f.appendChild(e)});c.parentNode.replaceChild(f,c)}
+      else if(c.nodeType===1)walk(c)})})(tag);
+  });
+  tearAll();
+
+
+  /* nav: hide while scrolling down, show again when scrolling up */
+  var bar=document.querySelector('.bar'),lastY=scrollY;
+  window.addEventListener('scroll',function(){var y=scrollY;if(Math.abs(y-lastY)<6)return;bar.classList.toggle('away',y>lastY&&y>140);lastY=y},{passive:true});
+
+  /* ---------- snow grains settling on Chladni patterns, pushed around by the cursor ---------- */
+  function chladni(cv,opt){
+    if(!cv)return;opt=opt||{};var sec=cv.parentNode,ctx=cv.getContext('2d');
+    var W=0,H=0,dpr=Math.min(devicePixelRatio||1,2),N=0,X,Y,mx=-1e4,my=-1e4,pmx=-1e4,pmy=-1e4,inside=false,run=false,raf=0;
+    var modes=[[1,4],[2,5],[3,5],[2,7],[4,7],[1,6],[3,8],[5,8]],mi=Math.floor(Math.random()*modes.length),n=modes[mi][0],m=modes[mi][1],a=1,b=-1;
+    var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function size(){var r=sec.getBoundingClientRect();W=r.width;H=r.height;cv.width=W*dpr;cv.height=H*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);
+      var want=Math.round(Math.min(9000,W*H/55));if(want!==N){N=want;X=new Float32Array(N);Y=new Float32Array(N);for(var i=0;i<N;i++){X[i]=Math.random()*W;Y[i]=Math.random()*H}}}
+    function f(x,y){var u=x/W*Math.PI,v=y/H*Math.PI;return a*Math.sin(n*u)*Math.sin(m*v)+b*Math.sin(m*u)*Math.sin(n*v)}
+    function step(){
+      ctx.clearRect(0,0,W,H);
+      var dx=mx-pmx,dy=my-pmy,sp=Math.min(60,Math.hypot(dx,dy));pmx+= (mx-pmx)*.35;pmy+=(my-pmy)*.35;
+      ctx.fillStyle='rgba(242,235,216,'+(opt.alpha||.9)+')';
+      var e=1.5,K=Math.min(W,H)*.9;
+      for(var i=0;i<N;i++){var x=X[i],y=Y[i],v=f(x,y),gx=(f(x+e,y)-v)/e,gy=(f(x,y+e)-v)/e,g2=gx*gx+gy*gy+1e-6,amp=Math.abs(v);
+        var pull=Math.max(-2,Math.min(2,v/Math.sqrt(g2)*.1));x-=gx/Math.sqrt(g2)*pull;y-=gy/Math.sqrt(g2)*pull;
+        var k=amp*2.2+1.9;x+=(Math.random()-.5)*k;y+=(Math.random()-.5)*k;
+        if(inside){var ddx=x-mx,ddy=y-my,d2=ddx*ddx+ddy*ddy,R=90+sp*2;if(d2<R*R){var d=Math.sqrt(d2)||1,push=(1-d/R)*(3+sp*.25);x+=ddx/d*push+dx*.04;y+=ddy/d*push+dy*.04}}
+        if(x<0)x+=W;if(x>W)x-=W;if(y<0)y+=H;if(y>H)y-=H;X[i]=x;Y[i]=y;
+        ctx.fillRect(x,y,1.3,1.3)}
+      if(run)raf=requestAnimationFrame(step)}
+    function start(){if(run)return;run=true;raf=requestAnimationFrame(step)}function stop(){run=false;cancelAnimationFrame(raf)}
+    size();window.addEventListener('resize',function(){clearTimeout(size.t);size.t=setTimeout(size,150)});
+    if('IntersectionObserver' in window)new IntersectionObserver(function(es){es[0].isIntersecting?start():stop()},{threshold:0}).observe(sec);else start();
+    var ring=document.querySelector('.ring');if(!ring){ring=document.createElement('div');ring.className='ring';document.body.appendChild(ring)}
+    sec.addEventListener('pointermove',function(e){var r=sec.getBoundingClientRect();mx=e.clientX-r.left;my=e.clientY-r.top;if(!inside){pmx=mx;pmy=my}inside=true;ring.classList.add('on');ring.style.transform='translate('+e.clientX+'px,'+e.clientY+'px)';ring.classList.toggle('big',!!e.target.closest('a,button'))});
+    sec.addEventListener('pointerleave',function(){inside=false;ring.classList.remove('on')});
+    function shuffle(){var j;do{j=Math.floor(Math.random()*modes.length)}while(j===mi);mi=j;n=modes[j][0];m=modes[j][1];b=Math.random()<.5?-1:1;
+      for(var i=0;i<N;i++){X[i]+= (Math.random()-.5)*40;Y[i]+=(Math.random()-.5)*40}}
+    if(opt.btn)opt.btn.addEventListener('click',shuffle);
+    sec.addEventListener('click',function(e){if(!e.target.closest('a,button'))shuffle()});
+  }
+  chladni(document.getElementById('chladni'),{btn:document.getElementById('shuffle')});
+  chladni(document.getElementById('chladni2'),{alpha:.5});
+})();
+</script>
+
+</body>
+</html>
